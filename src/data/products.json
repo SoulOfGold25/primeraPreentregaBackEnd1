@@ -1,175 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Remera Nike",
-    "description": "Remera deportiva",
-    "code": "pgm232",
-    "price": 250,
-    "status": true,
-    "stock": 10,
-    "category": "remeras",
-    "thumbnails": ""
-  },
-  {
-    "id": 2,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 3,
     "title": "Gorra",
     "description": "Gorra de Vernao",
-    "code": "1234",
-    "price": "23456",
-    "stock": "3",
+    "code": "grm",
+    "price": "89",
+    "stock": "8989",
     "category": "Gorras"
   },
   {
-    "id": 4,
-    "title": "Buzo",
-    "description": "buzo polar",
+    "id": 2,
+    "title": "Gallina",
+    "description": "Gallina de campo",
     "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 5,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 6,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 7,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 8,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 9,
-    "title": "Buzo",
-    "description": "buzo polar",
-    "code": "grm1",
-    "price": "5000",
-    "stock": "2",
-    "category": "buzos"
-  },
-  {
-    "id": 10,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 11,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 12,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 13,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 14,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 15,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 16,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 17,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 18,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
-  },
-  {
-    "id": 19,
-    "title": "Gorra",
-    "description": "buzo polar",
-    "code": "1234",
-    "price": "8888",
-    "stock": "88",
-    "category": "buzos"
+    "price": "3",
+    "stock": "3",
+    "category": "Animal"
   }
 ]

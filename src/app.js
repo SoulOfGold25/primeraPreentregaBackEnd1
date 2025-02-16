@@ -43,6 +43,16 @@ io.on("connection", (socket)=>{
         }
     });
 
+    socket.on("deleteProductById", async (id) => {
+        try {
+            await productManager.deleteProductsById(id); // Elimina el producto por ID
+            const updatedProducts = await productManager.getProduct(); // Obtiene la lista actualizada
+            io.emit("productDeleted", updatedProducts); // Envia la lista a todos los clientes
+        } catch (error) {
+            console.error("Error al eliminar producto:", error.message);
+        }
+    });
+
 });
 
 server.listen(PORT, () => {

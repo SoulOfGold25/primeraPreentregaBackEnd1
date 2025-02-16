@@ -15,7 +15,10 @@
 
     <ul id="productsList">
         {{#each products}}
-            <li>{{this.title}} - {{this.price}} <button>Eliminar</button> </li>
+            <li>
+                {{this.title}} - {{this.price}}
+                <button class="delete-btn" data-id="{{this.id}}">Eliminar</button>
+            </li>
         {{/each}}
     </ul>
 </div>
