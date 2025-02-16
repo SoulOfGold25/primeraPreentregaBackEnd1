@@ -1,11 +1,10 @@
 {
-  "name": "primerapreentregadw1",
+  "name": "after1",
   "version": "1.0.0",
-  "main": "cartManager.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
-    "fs": "^0.0.1-security"
+    "express-handlebars": "^8.0.1",
+    "socket.io": "^4.8.1"
   }
 }
