@@ -1,20 +1,25 @@
 [
   {
-    "id": 1,
-    "title": "Gorra",
-    "description": "Gorra de Vernao",
-    "code": "grm",
-    "price": "89",
-    "stock": "8989",
-    "category": "Gorras"
+    "title": "Inyector de combustible 937",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3388",
+    "price": 383.5,
+    "status": true,
+    "stock": 19,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/25.jpg",
+      "https://example.com/repuestos/75.jpg",
+      "https://example.com/repuestos/24.jpg"
+    ]
   },
   {
-    "id": 2,
-    "title": "Gallina",
-    "description": "Gallina de campo",
+    "id": null,
+    "title": "Gorra",
+    "description": "buzo polar",
     "code": "grm1",
-    "price": "3",
-    "stock": "3",
-    "category": "Animal"
+    "price": "13123",
+    "stock": "2",
+    "category": "buzos"
   }
 ]

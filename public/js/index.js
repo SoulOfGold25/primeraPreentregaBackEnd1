@@ -52,3 +52,5 @@ function updateProductList(products) {
         productsList.appendChild(li);
     });
 }
+
+

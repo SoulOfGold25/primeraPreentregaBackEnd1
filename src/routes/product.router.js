@@ -1,10 +1,23 @@
 import express from "express";
 import ProductManager  from "../ProductManager.js";
+import Product from "../models/product.model.js";
 
 //Inicio el router de express para manejar rutas
 const productsRouter = express.Router();
+
 //instanciamos el manejador de nuestro archivo de productos
 const productManager = new ProductManager("./src/data/product.json");
+
+productsRouter.get("/", async(req, res)=>{
+    try {
+        const products = await Product.find();
+        res.status(200).send({status: "success", payload: posts});
+    } catch (error) {
+        res.status(500).send({status: "error", message: error.message});
+    }
+})
+
+
 
 //GET "/"
 productsRouter.get("/", async(req, res)=>{
@@ -59,6 +72,7 @@ productsRouter.delete("/:pid", async (req, res)=>{
     } catch (error) {
         res.status(404).send({message: error.message});
     }
-})
+}) 
+    
 
 export default productsRouter;

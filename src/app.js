@@ -6,6 +6,7 @@ import  { Server } from "socket.io";
 import http from "http";
 import viewsRouter from "./routes/views.router.js";
 import ProductManager from "./ProductManager.js";
+import connectMongoDB from "./data/db.js";
 
 
 const app = express();
@@ -17,12 +18,18 @@ app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./src/views");
 
+//Me conecto con MongoDB
+connectMongoDB();
+
 //puerto
 const PORT = 8080;  
+
 //Habilito el envio de informacion de tipo JSON
 app.use(express.json());
+
 //Habilitamos la carpeta public
 app.use(express.static("public"))
+
 //endpoints
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartRouter);

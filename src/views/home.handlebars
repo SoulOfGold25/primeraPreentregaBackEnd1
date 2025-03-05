@@ -1,9 +1,77 @@
 <div>
     <h1>Home</h1>
     <h2>Lista de productos</h2>
+
+    <p>Ordenar por: 
+        <a href="/?sortBy=price&sortOrder=asc&available={{availableOnly}}">Precio ↑</a> | 
+        <a href="/?sortBy=price&sortOrder=desc&available={{availableOnly}}">Precio ↓</a> |
+        <a href="/?sortBy=title&sortOrder=asc&available={{availableOnly}}">Nombre ↑</a> |
+        <a href="/?sortBy=title&sortOrder=desc&available={{availableOnly}}">Nombre ↓</a>
+    </p>
+
+    <p>Filtrar: 
+        {{#if availableOnly}}
+            <a href="/?sortBy={{sortBy}}&sortOrder={{sortOrder}}">Ver todos</a>
+        {{else}}
+            <a href="/?available=true&sortBy={{sortBy}}&sortOrder={{sortOrder}}">Solo disponibles</a>
+        {{/if}}
+    </p>
+
     <ul>
-        {{#each products}}
-            <li>{{this.title}} - {{this.price}}</li>
+        {{#each docs}}
+            <li>
+                <strong>Nombre:</strong> {{this.title}} <br>
+                <strong>Precio:</strong> ${{this.price}} <br>
+                
+                <!-- Enlace a la página de detalles del producto -->
+                <a href="/products/{{this._id}}">Ver detalles</a>
+
+                <!-- Botón para agregar al carrito -->
+                <button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
+            </li>
         {{/each}}
     </ul>
+
+    <a href="/cartDetails/{{cartId}}">🛒 Ver carrito</a>
+
+    <p>Página {{page}} de {{totalPages}}</p>
+
+    {{#if hasPrevPage}}
+        <a href="/?page={{prevPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Anterior</a>
+    {{/if}}
+
+    {{#if hasNextPage}}
+        <a href="/?page={{nextPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Siguiente</a>
+    {{/if}}
 </div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script></script>
+<script>
+    let cartId = null;
+
+    async function fetchCartId() {
+        const response = await fetch('/get-latest-cart');
+        const data = await response.json();
+        cartId = data.cartId;
+    }
+
+    async function addToCart(productId) {
+        if (!cartId) await fetchCartId(); 
+
+        const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ quantity: 1 })
+        });
+
+        const data = await response.json();
+        if (data.success) {
+            alert("Producto agregado al carrito");
+        } else {
+            alert("Error al agregar el producto");
+        }
+    }
+
+    fetchCartId(); 
+</script>
