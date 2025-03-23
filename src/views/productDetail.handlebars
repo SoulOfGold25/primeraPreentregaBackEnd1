@@ -6,8 +6,37 @@
     <p><strong>Precio:</strong> ${{product.price}}</p>
     <p><strong>Categoría:</strong> {{product.category}}</p>
 
-    <button id="add-to-cart" data-id="{{product._id}}">Agregar al carrito</button>
+    <!-- Botón para agregar al carrito -->
+    <button onclick="addToCart('{{product._id}}')">Agregar al carrito</button>
+    
+    <script>
+    let cartId = null;
+
+    async function fetchCartId() {
+        const response = await fetch('/api/carts/latest');
+        const data = await response.json();
+        cartId = data.cartId;
+    }
+
+    async function addToCart(productId) {
+        if (!cartId) await fetchCartId(); 
+
+        const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ quantity: 1 })
+        });
+
+        const data = await response.json();
+        if (data.success) {
+            alert("Producto agregado al carrito");
+        } else {
+            alert("Error al agregar el producto");
+        }
+    }
+
+    fetchCartId(); 
+    </script>
     
     <a href="/">Volver a la lista de productos</a>
 </div>
-

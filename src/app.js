@@ -8,12 +8,13 @@ import viewsRouter from "./routes/views.router.js";
 import ProductManager from "./ProductManager.js";
 import connectMongoDB from "./data/db.js";
 
-
+//Inicializo Express
 const app = express();
+
 const server = http.createServer(app);
 const io = new Server(server);
 
-//handlebars
+//configuracion de handlebars
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./src/views");
@@ -24,8 +25,9 @@ connectMongoDB();
 //puerto
 const PORT = 8080;  
 
-//Habilito el envio de informacion de tipo JSON
+//Middleware
 app.use(express.json());
+
 
 //Habilitamos la carpeta public
 app.use(express.static("public"))
