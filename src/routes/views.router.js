@@ -76,4 +76,23 @@ viewsRouter.get("/realtimeproducts", async (req, res)=>{
     }
 })
 
+// Ruta para ver los detalles del carrito
+viewsRouter.get("/carts/:cid", async (req, res) => {
+    try {
+        // Busca el carrito por su ID
+        const cart = await Cart.findById(req.params.cid).populate('products.product').lean();
+
+        // Si no se encuentra el carrito, retornar error 404
+        if (!cart) {
+            return res.status(404).send("Carrito no encontrado");
+        }
+
+        // Renderiza la vista con los detalles del carrito
+        res.render("cart", { cart });
+    } catch (error) {
+        res.status(500).send("Error al obtener los detalles del carrito");
+    }
+});
+
+
 export default viewsRouter;

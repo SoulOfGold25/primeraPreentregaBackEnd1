@@ -1,0 +1,6511 @@
+[
+  {
+    "title": "Inyector de combustible 937",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3388",
+    "price": 383.5,
+    "status": true,
+    "stock": 19,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/25.jpg",
+      "https://example.com/repuestos/75.jpg",
+      "https://example.com/repuestos/24.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 336",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6882",
+    "price": 132.25,
+    "status": false,
+    "stock": 19,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/76.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 563",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7829",
+    "price": 323.08,
+    "status": false,
+    "stock": 9,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 808",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2123",
+    "price": 465.66,
+    "status": false,
+    "stock": 36,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg",
+      "https://example.com/repuestos/99.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 407",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8002",
+    "price": 394.88,
+    "status": false,
+    "stock": 72,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Batería 804",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3450",
+    "price": 408.16,
+    "status": true,
+    "stock": 20,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg",
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/12.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 337",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6565",
+    "price": 106.11,
+    "status": true,
+    "stock": 35,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/59.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 594",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2513",
+    "price": 62.71,
+    "status": false,
+    "stock": 65,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/90.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 332",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2422",
+    "price": 347.18,
+    "status": false,
+    "stock": 78,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 937",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6885",
+    "price": 319.9,
+    "status": true,
+    "stock": 55,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/57.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 568",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6445",
+    "price": 195.25,
+    "status": false,
+    "stock": 89,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/6.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 750",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6622",
+    "price": 414.97,
+    "status": false,
+    "stock": 75,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 337",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8421",
+    "price": 215.97,
+    "status": false,
+    "stock": 1,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg",
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/27.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 799",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3413",
+    "price": 56.84,
+    "status": true,
+    "stock": 26,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg",
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/98.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 690",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6314",
+    "price": 328.09,
+    "status": false,
+    "stock": 83,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 544",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9393",
+    "price": 193.86,
+    "status": true,
+    "stock": 56,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 717",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7489",
+    "price": 23.13,
+    "status": true,
+    "stock": 40,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/79.jpg",
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 233",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4849",
+    "price": 496.35,
+    "status": true,
+    "stock": 57,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/57.jpg",
+      "https://example.com/repuestos/59.jpg",
+      "https://example.com/repuestos/100.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 499",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2895",
+    "price": 365.03,
+    "status": false,
+    "stock": 67,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/13.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 432",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7833",
+    "price": 482.61,
+    "status": true,
+    "stock": 87,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 115",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4596",
+    "price": 394.16,
+    "status": true,
+    "stock": 34,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/27.jpg",
+      "https://example.com/repuestos/37.jpg",
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 917",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7882",
+    "price": 444.52,
+    "status": true,
+    "stock": 75,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/27.jpg",
+      "https://example.com/repuestos/23.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 968",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6492",
+    "price": 35.9,
+    "status": false,
+    "stock": 31,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/11.jpg",
+      "https://example.com/repuestos/9.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 175",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3580",
+    "price": 133.7,
+    "status": true,
+    "stock": 25,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 881",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4021",
+    "price": 188.78,
+    "status": true,
+    "stock": 52,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/100.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 831",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1195",
+    "price": 464.03,
+    "status": false,
+    "stock": 29,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/32.jpg",
+      "https://example.com/repuestos/26.jpg",
+      "https://example.com/repuestos/73.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 207",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4046",
+    "price": 362.2,
+    "status": true,
+    "stock": 35,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/8.jpg",
+      "https://example.com/repuestos/15.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 115",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6898",
+    "price": 418.62,
+    "status": false,
+    "stock": 39,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/13.jpg",
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 577",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1300",
+    "price": 56.18,
+    "status": true,
+    "stock": 17,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/76.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 344",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1444",
+    "price": 327.39,
+    "status": true,
+    "stock": 97,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/37.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Batería 482",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4126",
+    "price": 107.06,
+    "status": true,
+    "stock": 11,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/26.jpg",
+      "https://example.com/repuestos/80.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 498",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9224",
+    "price": 132.02,
+    "status": true,
+    "stock": 56,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 334",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9768",
+    "price": 287.01,
+    "status": true,
+    "stock": 71,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 352",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6127",
+    "price": 73.5,
+    "status": true,
+    "stock": 78,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 436",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8480",
+    "price": 205.15,
+    "status": true,
+    "stock": 49,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Batería 431",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6683",
+    "price": 34.29,
+    "status": true,
+    "stock": 99,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/67.jpg",
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 636",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1624",
+    "price": 319.16,
+    "status": false,
+    "stock": 18,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 439",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6281",
+    "price": 366.85,
+    "status": true,
+    "stock": 30,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/65.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 308",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2853",
+    "price": 436.11,
+    "status": false,
+    "stock": 44,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/29.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 970",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2836",
+    "price": 369.94,
+    "status": false,
+    "stock": 67,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/74.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 787",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5618",
+    "price": 186.52,
+    "status": true,
+    "stock": 25,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 361",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8377",
+    "price": 399.42,
+    "status": true,
+    "stock": 11,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/52.jpg",
+      "https://example.com/repuestos/30.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 765",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9846",
+    "price": 290.18,
+    "status": false,
+    "stock": 64,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 633",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8876",
+    "price": 360.11,
+    "status": true,
+    "stock": 32,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/31.jpg",
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/12.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 797",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5311",
+    "price": 180.62,
+    "status": true,
+    "stock": 60,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 980",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8420",
+    "price": 432.23,
+    "status": false,
+    "stock": 25,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 581",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4862",
+    "price": 77.5,
+    "status": true,
+    "stock": 51,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg",
+      "https://example.com/repuestos/9.jpg",
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 150",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7222",
+    "price": 326.54,
+    "status": false,
+    "stock": 12,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 804",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8631",
+    "price": 365.05,
+    "status": true,
+    "stock": 3,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 642",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5148",
+    "price": 103.37,
+    "status": false,
+    "stock": 49,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 463",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2148",
+    "price": 448.41,
+    "status": true,
+    "stock": 40,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 558",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5585",
+    "price": 413.21,
+    "status": false,
+    "stock": 90,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/66.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 997",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4446",
+    "price": 123.7,
+    "status": true,
+    "stock": 89,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/7.jpg",
+      "https://example.com/repuestos/23.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 154",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6167",
+    "price": 143.28,
+    "status": true,
+    "stock": 23,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/12.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 169",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9785",
+    "price": 168.74,
+    "status": true,
+    "stock": 38,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/52.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 990",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7691",
+    "price": 191.8,
+    "status": false,
+    "stock": 1,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 944",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6639",
+    "price": 495.4,
+    "status": true,
+    "stock": 10,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/32.jpg",
+      "https://example.com/repuestos/37.jpg",
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 456",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2263",
+    "price": 486.67,
+    "status": false,
+    "stock": 17,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 583",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6082",
+    "price": 437.06,
+    "status": true,
+    "stock": 21,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 735",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5337",
+    "price": 360.84,
+    "status": false,
+    "stock": 16,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/80.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 937",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7611",
+    "price": 369.64,
+    "status": true,
+    "stock": 20,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 392",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5255",
+    "price": 276.35,
+    "status": false,
+    "stock": 76,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/98.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 733",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1478",
+    "price": 117.8,
+    "status": true,
+    "stock": 93,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/34.jpg",
+      "https://example.com/repuestos/8.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 538",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7743",
+    "price": 293.72,
+    "status": false,
+    "stock": 92,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/82.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 785",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8754",
+    "price": 481.4,
+    "status": false,
+    "stock": 46,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/29.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 990",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4329",
+    "price": 409.76,
+    "status": true,
+    "stock": 73,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/40.jpg"
+    ]
+  },
+  {
+    "title": "Culata 504",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2450",
+    "price": 331.36,
+    "status": false,
+    "stock": 34,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/90.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 620",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5359",
+    "price": 39.53,
+    "status": false,
+    "stock": 42,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/24.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 625",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1877",
+    "price": 22.71,
+    "status": true,
+    "stock": 74,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 737",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7141",
+    "price": 306.37,
+    "status": false,
+    "stock": 18,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 831",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1628",
+    "price": 211.45,
+    "status": false,
+    "stock": 71,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/32.jpg",
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 486",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3731",
+    "price": 273.78,
+    "status": false,
+    "stock": 32,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/27.jpg",
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/36.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 726",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4251",
+    "price": 209.97,
+    "status": false,
+    "stock": 63,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 281",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7039",
+    "price": 439.29,
+    "status": false,
+    "stock": 45,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 810",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1059",
+    "price": 122.01,
+    "status": true,
+    "stock": 17,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/46.jpg",
+      "https://example.com/repuestos/2.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 991",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1874",
+    "price": 66.89,
+    "status": true,
+    "stock": 32,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/55.jpg",
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 524",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8051",
+    "price": 68.61,
+    "status": true,
+    "stock": 77,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/89.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 702",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8212",
+    "price": 364.63,
+    "status": true,
+    "stock": 40,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/24.jpg",
+      "https://example.com/repuestos/41.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 812",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7697",
+    "price": 144.17,
+    "status": false,
+    "stock": 27,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 723",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6527",
+    "price": 196.89,
+    "status": false,
+    "stock": 46,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/8.jpg",
+      "https://example.com/repuestos/20.jpg",
+      "https://example.com/repuestos/35.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 471",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5019",
+    "price": 145.98,
+    "status": true,
+    "stock": 21,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/34.jpg",
+      "https://example.com/repuestos/49.jpg"
+    ]
+  },
+  {
+    "title": "Batería 462",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1106",
+    "price": 67.45,
+    "status": false,
+    "stock": 49,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 482",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9747",
+    "price": 108.7,
+    "status": true,
+    "stock": 93,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 745",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3203",
+    "price": 32.57,
+    "status": true,
+    "stock": 32,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 266",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1815",
+    "price": 214.97,
+    "status": true,
+    "stock": 47,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/15.jpg",
+      "https://example.com/repuestos/52.jpg",
+      "https://example.com/repuestos/78.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 557",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6981",
+    "price": 256.59,
+    "status": true,
+    "stock": 69,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 646",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5148",
+    "price": 287.78,
+    "status": false,
+    "stock": 81,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 794",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5252",
+    "price": 497.26,
+    "status": false,
+    "stock": 58,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/45.jpg",
+      "https://example.com/repuestos/14.jpg",
+      "https://example.com/repuestos/13.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 146",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3448",
+    "price": 21.65,
+    "status": false,
+    "stock": 60,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg",
+      "https://example.com/repuestos/29.jpg",
+      "https://example.com/repuestos/49.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 120",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6169",
+    "price": 331.02,
+    "status": false,
+    "stock": 63,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/84.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 482",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2006",
+    "price": 227.23,
+    "status": true,
+    "stock": 78,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 641",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1064",
+    "price": 19.21,
+    "status": false,
+    "stock": 22,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/30.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 504",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8286",
+    "price": 469.11,
+    "status": true,
+    "stock": 5,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/5.jpg",
+      "https://example.com/repuestos/73.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 483",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9322",
+    "price": 440.27,
+    "status": false,
+    "stock": 6,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/59.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 304",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4855",
+    "price": 290.35,
+    "status": false,
+    "stock": 24,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/5.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 740",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6570",
+    "price": 482.16,
+    "status": false,
+    "stock": 15,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Batería 336",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9927",
+    "price": 13.6,
+    "status": false,
+    "stock": 58,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 152",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9733",
+    "price": 285.2,
+    "status": false,
+    "stock": 79,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/52.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 200",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7767",
+    "price": 298.65,
+    "status": true,
+    "stock": 16,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/62.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 418",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2918",
+    "price": 136.06,
+    "status": false,
+    "stock": 51,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/8.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 948",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8054",
+    "price": 10.84,
+    "status": false,
+    "stock": 66,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 288",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5731",
+    "price": 81.53,
+    "status": false,
+    "stock": 67,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 548",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6217",
+    "price": 357.32,
+    "status": true,
+    "stock": 86,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/54.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 180",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4081",
+    "price": 68.47,
+    "status": true,
+    "stock": 50,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/53.jpg",
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 187",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3739",
+    "price": 495.8,
+    "status": true,
+    "stock": 56,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/75.jpg",
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 815",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4301",
+    "price": 247.19,
+    "status": false,
+    "stock": 67,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 534",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3104",
+    "price": 401.95,
+    "status": true,
+    "stock": 27,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 349",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9141",
+    "price": 164.75,
+    "status": false,
+    "stock": 30,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/84.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 437",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7626",
+    "price": 328.95,
+    "status": true,
+    "stock": 46,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 543",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1542",
+    "price": 298.51,
+    "status": false,
+    "stock": 50,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/79.jpg",
+      "https://example.com/repuestos/12.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 758",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7153",
+    "price": 322.29,
+    "status": true,
+    "stock": 64,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg",
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 451",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7093",
+    "price": 196.38,
+    "status": false,
+    "stock": 71,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/26.jpg",
+      "https://example.com/repuestos/26.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 511",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5456",
+    "price": 218.66,
+    "status": false,
+    "stock": 0,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/46.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 909",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5250",
+    "price": 358.33,
+    "status": true,
+    "stock": 85,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 631",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4020",
+    "price": 215.73,
+    "status": false,
+    "stock": 54,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 193",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1816",
+    "price": 92.95,
+    "status": false,
+    "stock": 30,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 254",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6583",
+    "price": 420.36,
+    "status": false,
+    "stock": 62,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg",
+      "https://example.com/repuestos/67.jpg",
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 542",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4968",
+    "price": 152.65,
+    "status": true,
+    "stock": 85,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/67.jpg",
+      "https://example.com/repuestos/3.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 453",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3465",
+    "price": 60.19,
+    "status": true,
+    "stock": 24,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/3.jpg",
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 838",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8139",
+    "price": 156.15,
+    "status": false,
+    "stock": 19,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 743",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4780",
+    "price": 474.46,
+    "status": true,
+    "stock": 97,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 808",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9338",
+    "price": 405.42,
+    "status": true,
+    "stock": 3,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/3.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 358",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7768",
+    "price": 381.17,
+    "status": false,
+    "stock": 19,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/25.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 842",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7172",
+    "price": 178.0,
+    "status": true,
+    "stock": 68,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/35.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 852",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1287",
+    "price": 397.22,
+    "status": false,
+    "stock": 32,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/33.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 926",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7234",
+    "price": 178.3,
+    "status": false,
+    "stock": 67,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg",
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/56.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 342",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5828",
+    "price": 150.91,
+    "status": true,
+    "stock": 89,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 824",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4985",
+    "price": 366.03,
+    "status": true,
+    "stock": 71,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/47.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 551",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8161",
+    "price": 163.01,
+    "status": false,
+    "stock": 30,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/4.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 772",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8052",
+    "price": 379.57,
+    "status": true,
+    "stock": 92,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg",
+      "https://example.com/repuestos/75.jpg",
+      "https://example.com/repuestos/31.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 522",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5776",
+    "price": 433.41,
+    "status": true,
+    "stock": 99,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/40.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 125",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3590",
+    "price": 125.97,
+    "status": false,
+    "stock": 14,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/45.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 832",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4297",
+    "price": 46.63,
+    "status": true,
+    "stock": 32,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/26.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 309",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2813",
+    "price": 489.12,
+    "status": false,
+    "stock": 46,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 211",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6298",
+    "price": 327.47,
+    "status": false,
+    "stock": 84,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 288",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4574",
+    "price": 340.49,
+    "status": true,
+    "stock": 87,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 203",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5639",
+    "price": 468.31,
+    "status": false,
+    "stock": 25,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 483",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7604",
+    "price": 230.29,
+    "status": true,
+    "stock": 35,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/62.jpg",
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 412",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6419",
+    "price": 327.03,
+    "status": false,
+    "stock": 45,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 526",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4493",
+    "price": 42.94,
+    "status": false,
+    "stock": 75,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/6.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 550",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6245",
+    "price": 407.7,
+    "status": true,
+    "stock": 63,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/66.jpg",
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/49.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 813",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6501",
+    "price": 374.19,
+    "status": true,
+    "stock": 84,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/41.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 954",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2164",
+    "price": 115.35,
+    "status": true,
+    "stock": 84,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 131",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8627",
+    "price": 382.95,
+    "status": false,
+    "stock": 1,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/57.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 186",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5091",
+    "price": 399.1,
+    "status": true,
+    "stock": 14,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 404",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6518",
+    "price": 242.44,
+    "status": false,
+    "stock": 17,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/77.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 179",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8026",
+    "price": 186.17,
+    "status": false,
+    "stock": 72,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/50.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 348",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7151",
+    "price": 311.45,
+    "status": true,
+    "stock": 13,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/99.jpg",
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 862",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6060",
+    "price": 451.97,
+    "status": true,
+    "stock": 79,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/53.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 951",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5237",
+    "price": 58.78,
+    "status": true,
+    "stock": 20,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/12.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 522",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8233",
+    "price": 47.79,
+    "status": true,
+    "stock": 74,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 513",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7613",
+    "price": 366.22,
+    "status": false,
+    "stock": 22,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/40.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 282",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6095",
+    "price": 311.44,
+    "status": true,
+    "stock": 50,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/14.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 719",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3525",
+    "price": 462.02,
+    "status": true,
+    "stock": 34,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/42.jpg",
+      "https://example.com/repuestos/100.jpg",
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Batería 234",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9117",
+    "price": 409.42,
+    "status": false,
+    "stock": 21,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 374",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3385",
+    "price": 207.33,
+    "status": true,
+    "stock": 34,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg",
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/2.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 327",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7993",
+    "price": 146.64,
+    "status": true,
+    "stock": 83,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/41.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 617",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4739",
+    "price": 456.1,
+    "status": true,
+    "stock": 87,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 838",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7070",
+    "price": 470.68,
+    "status": false,
+    "stock": 61,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/42.jpg",
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Batería 427",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7244",
+    "price": 161.71,
+    "status": true,
+    "stock": 13,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 523",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4141",
+    "price": 411.32,
+    "status": false,
+    "stock": 5,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/56.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 837",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9281",
+    "price": 463.43,
+    "status": false,
+    "stock": 26,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/29.jpg"
+    ]
+  },
+  {
+    "title": "Culata 243",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7261",
+    "price": 488.15,
+    "status": true,
+    "stock": 70,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/85.jpg",
+      "https://example.com/repuestos/56.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 957",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4073",
+    "price": 206.81,
+    "status": true,
+    "stock": 93,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 596",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5275",
+    "price": 70.41,
+    "status": true,
+    "stock": 6,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg",
+      "https://example.com/repuestos/80.jpg",
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 127",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4645",
+    "price": 60.75,
+    "status": true,
+    "stock": 4,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/13.jpg",
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 352",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9666",
+    "price": 370.21,
+    "status": true,
+    "stock": 83,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 218",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7792",
+    "price": 252.41,
+    "status": false,
+    "stock": 61,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/11.jpg",
+      "https://example.com/repuestos/31.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 143",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6490",
+    "price": 227.74,
+    "status": false,
+    "stock": 82,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 186",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3673",
+    "price": 289.24,
+    "status": false,
+    "stock": 9,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/4.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 972",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2552",
+    "price": 110.43,
+    "status": true,
+    "stock": 99,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 990",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1311",
+    "price": 393.36,
+    "status": false,
+    "stock": 82,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/34.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 233",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8689",
+    "price": 150.73,
+    "status": false,
+    "stock": 43,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg",
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/35.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 637",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3238",
+    "price": 302.91,
+    "status": false,
+    "stock": 72,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 598",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2640",
+    "price": 319.77,
+    "status": true,
+    "stock": 14,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 597",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9705",
+    "price": 127.74,
+    "status": true,
+    "stock": 36,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 737",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3967",
+    "price": 486.43,
+    "status": true,
+    "stock": 70,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Culata 543",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2743",
+    "price": 150.11,
+    "status": true,
+    "stock": 19,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 562",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2884",
+    "price": 99.75,
+    "status": true,
+    "stock": 56,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 635",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7815",
+    "price": 299.2,
+    "status": false,
+    "stock": 88,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg",
+      "https://example.com/repuestos/78.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 387",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3849",
+    "price": 228.3,
+    "status": true,
+    "stock": 78,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 173",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9851",
+    "price": 464.37,
+    "status": true,
+    "stock": 90,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/36.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 907",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6742",
+    "price": 158.7,
+    "status": true,
+    "stock": 37,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/100.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 268",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7226",
+    "price": 207.65,
+    "status": true,
+    "stock": 26,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/3.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 636",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6872",
+    "price": 113.74,
+    "status": false,
+    "stock": 19,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 924",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7540",
+    "price": 347.71,
+    "status": false,
+    "stock": 40,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 119",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2215",
+    "price": 348.56,
+    "status": false,
+    "stock": 19,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/37.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 559",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4164",
+    "price": 281.61,
+    "status": true,
+    "stock": 94,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 514",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3449",
+    "price": 247.21,
+    "status": false,
+    "stock": 69,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/46.jpg",
+      "https://example.com/repuestos/50.jpg",
+      "https://example.com/repuestos/45.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 317",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6859",
+    "price": 413.28,
+    "status": true,
+    "stock": 52,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/100.jpg",
+      "https://example.com/repuestos/66.jpg",
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 495",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3870",
+    "price": 36.73,
+    "status": false,
+    "stock": 86,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/52.jpg",
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/31.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 118",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2248",
+    "price": 282.6,
+    "status": false,
+    "stock": 34,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 871",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5805",
+    "price": 414.93,
+    "status": false,
+    "stock": 92,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg",
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/5.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 676",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3731",
+    "price": 359.75,
+    "status": true,
+    "stock": 56,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 667",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9827",
+    "price": 495.55,
+    "status": false,
+    "stock": 16,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 332",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5084",
+    "price": 128.81,
+    "status": true,
+    "stock": 79,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/34.jpg",
+      "https://example.com/repuestos/40.jpg",
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 581",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1626",
+    "price": 483.83,
+    "status": false,
+    "stock": 93,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/40.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 692",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1982",
+    "price": 166.69,
+    "status": true,
+    "stock": 53,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/4.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 249",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3189",
+    "price": 129.06,
+    "status": true,
+    "stock": 19,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/42.jpg",
+      "https://example.com/repuestos/18.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 110",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3730",
+    "price": 302.64,
+    "status": false,
+    "stock": 58,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 389",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2430",
+    "price": 175.03,
+    "status": false,
+    "stock": 89,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/29.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 518",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8713",
+    "price": 114.01,
+    "status": true,
+    "stock": 10,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 714",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8497",
+    "price": 445.24,
+    "status": false,
+    "stock": 10,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 266",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9994",
+    "price": 486.64,
+    "status": false,
+    "stock": 51,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/2.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 242",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4939",
+    "price": 277.3,
+    "status": true,
+    "stock": 65,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 654",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4083",
+    "price": 362.5,
+    "status": false,
+    "stock": 18,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/42.jpg",
+      "https://example.com/repuestos/66.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 510",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2261",
+    "price": 295.4,
+    "status": false,
+    "stock": 24,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/27.jpg",
+      "https://example.com/repuestos/8.jpg",
+      "https://example.com/repuestos/70.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 156",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4988",
+    "price": 431.89,
+    "status": true,
+    "stock": 45,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 920",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6679",
+    "price": 83.87,
+    "status": false,
+    "stock": 93,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 375",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2686",
+    "price": 209.44,
+    "status": false,
+    "stock": 43,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/41.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 488",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9846",
+    "price": 259.97,
+    "status": false,
+    "stock": 76,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/98.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 717",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5819",
+    "price": 104.79,
+    "status": true,
+    "stock": 8,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/36.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 308",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6063",
+    "price": 462.57,
+    "status": true,
+    "stock": 62,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Batería 606",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9874",
+    "price": 289.17,
+    "status": false,
+    "stock": 65,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 818",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4669",
+    "price": 369.04,
+    "status": true,
+    "stock": 2,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/84.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 395",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8654",
+    "price": 290.74,
+    "status": true,
+    "stock": 67,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 208",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1350",
+    "price": 359.71,
+    "status": true,
+    "stock": 47,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 951",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4100",
+    "price": 321.05,
+    "status": true,
+    "stock": 76,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/23.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 443",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8096",
+    "price": 344.16,
+    "status": false,
+    "stock": 63,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/97.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 988",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8826",
+    "price": 382.78,
+    "status": true,
+    "stock": 21,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/45.jpg",
+      "https://example.com/repuestos/99.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 934",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5968",
+    "price": 379.19,
+    "status": false,
+    "stock": 92,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 785",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3051",
+    "price": 82.23,
+    "status": true,
+    "stock": 2,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 909",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7088",
+    "price": 258.02,
+    "status": false,
+    "stock": 9,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Batería 494",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3922",
+    "price": 448.93,
+    "status": true,
+    "stock": 15,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/26.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 348",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9053",
+    "price": 254.45,
+    "status": false,
+    "stock": 60,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/81.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 298",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4761",
+    "price": 123.49,
+    "status": false,
+    "stock": 55,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/62.jpg",
+      "https://example.com/repuestos/57.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 511",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9857",
+    "price": 85.97,
+    "status": true,
+    "stock": 30,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/4.jpg",
+      "https://example.com/repuestos/64.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 409",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9058",
+    "price": 232.76,
+    "status": true,
+    "stock": 37,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 669",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5011",
+    "price": 364.71,
+    "status": true,
+    "stock": 21,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/100.jpg",
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 920",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5852",
+    "price": 488.03,
+    "status": false,
+    "stock": 14,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/26.jpg",
+      "https://example.com/repuestos/26.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 724",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5409",
+    "price": 168.93,
+    "status": false,
+    "stock": 22,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 695",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1443",
+    "price": 470.3,
+    "status": false,
+    "stock": 46,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/25.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 702",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1539",
+    "price": 216.53,
+    "status": true,
+    "stock": 42,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg",
+      "https://example.com/repuestos/4.jpg",
+      "https://example.com/repuestos/27.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 218",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8300",
+    "price": 393.07,
+    "status": true,
+    "stock": 63,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/41.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 271",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6439",
+    "price": 134.31,
+    "status": false,
+    "stock": 93,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 658",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1939",
+    "price": 234.51,
+    "status": true,
+    "stock": 3,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 153",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3730",
+    "price": 61.05,
+    "status": false,
+    "stock": 25,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/62.jpg",
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 182",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8203",
+    "price": 276.18,
+    "status": true,
+    "stock": 8,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/76.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 923",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4238",
+    "price": 132.63,
+    "status": false,
+    "stock": 95,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/54.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 107",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5753",
+    "price": 28.06,
+    "status": false,
+    "stock": 17,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg",
+      "https://example.com/repuestos/77.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 266",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5110",
+    "price": 281.66,
+    "status": false,
+    "stock": 17,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 514",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8247",
+    "price": 217.33,
+    "status": true,
+    "stock": 34,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/80.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 122",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6090",
+    "price": 304.02,
+    "status": false,
+    "stock": 14,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 192",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4928",
+    "price": 449.55,
+    "status": false,
+    "stock": 16,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/78.jpg",
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/71.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 913",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1878",
+    "price": 410.66,
+    "status": false,
+    "stock": 76,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg",
+      "https://example.com/repuestos/35.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 345",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3780",
+    "price": 459.66,
+    "status": false,
+    "stock": 92,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/39.jpg",
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 303",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9838",
+    "price": 71.16,
+    "status": false,
+    "stock": 81,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 505",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2739",
+    "price": 240.6,
+    "status": true,
+    "stock": 36,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/15.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 946",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2048",
+    "price": 184.28,
+    "status": true,
+    "stock": 26,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 355",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8318",
+    "price": 88.79,
+    "status": true,
+    "stock": 2,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/84.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 341",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7242",
+    "price": 386.82,
+    "status": false,
+    "stock": 19,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/53.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 989",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4878",
+    "price": 421.39,
+    "status": true,
+    "stock": 97,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/49.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 588",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5460",
+    "price": 108.4,
+    "status": false,
+    "stock": 2,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/35.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 798",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8432",
+    "price": 31.23,
+    "status": false,
+    "stock": 13,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/52.jpg",
+      "https://example.com/repuestos/1.jpg",
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 470",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8326",
+    "price": 189.94,
+    "status": true,
+    "stock": 99,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 853",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1027",
+    "price": 233.71,
+    "status": true,
+    "stock": 37,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/98.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 453",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5181",
+    "price": 302.82,
+    "status": false,
+    "stock": 44,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/23.jpg",
+      "https://example.com/repuestos/73.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 974",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5901",
+    "price": 168.25,
+    "status": true,
+    "stock": 18,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/15.jpg",
+      "https://example.com/repuestos/78.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 369",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9016",
+    "price": 389.03,
+    "status": false,
+    "stock": 67,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 410",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7556",
+    "price": 161.52,
+    "status": true,
+    "stock": 71,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 426",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1919",
+    "price": 258.29,
+    "status": false,
+    "stock": 75,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 785",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2975",
+    "price": 155.98,
+    "status": false,
+    "stock": 2,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/65.jpg",
+      "https://example.com/repuestos/74.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 169",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3006",
+    "price": 271.31,
+    "status": true,
+    "stock": 44,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/100.jpg",
+      "https://example.com/repuestos/70.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 813",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4325",
+    "price": 27.54,
+    "status": true,
+    "stock": 17,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/45.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 193",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3966",
+    "price": 316.97,
+    "status": true,
+    "stock": 54,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 164",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9922",
+    "price": 464.07,
+    "status": false,
+    "stock": 70,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/74.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 423",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6517",
+    "price": 457.77,
+    "status": false,
+    "stock": 44,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 374",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2641",
+    "price": 177.76,
+    "status": false,
+    "stock": 13,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 902",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4001",
+    "price": 298.88,
+    "status": false,
+    "stock": 29,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/36.jpg",
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/95.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 613",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3794",
+    "price": 495.73,
+    "status": false,
+    "stock": 55,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/18.jpg",
+      "https://example.com/repuestos/14.jpg",
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 983",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7411",
+    "price": 132.99,
+    "status": true,
+    "stock": 89,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/15.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 622",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8345",
+    "price": 151.01,
+    "status": true,
+    "stock": 11,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/62.jpg",
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 802",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5123",
+    "price": 72.07,
+    "status": false,
+    "stock": 90,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/47.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 356",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4907",
+    "price": 39.99,
+    "status": true,
+    "stock": 73,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/25.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 826",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8425",
+    "price": 376.13,
+    "status": true,
+    "stock": 4,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/15.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 398",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3753",
+    "price": 161.25,
+    "status": true,
+    "stock": 0,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 297",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5457",
+    "price": 369.73,
+    "status": false,
+    "stock": 4,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 334",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4725",
+    "price": 338.43,
+    "status": true,
+    "stock": 72,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg",
+      "https://example.com/repuestos/64.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 861",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1860",
+    "price": 207.65,
+    "status": false,
+    "stock": 75,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/1.jpg",
+      "https://example.com/repuestos/18.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 293",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2945",
+    "price": 456.76,
+    "status": false,
+    "stock": 62,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/36.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 832",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6510",
+    "price": 420.27,
+    "status": true,
+    "stock": 91,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 953",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4000",
+    "price": 484.18,
+    "status": true,
+    "stock": 74,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/39.jpg"
+    ]
+  },
+  {
+    "title": "Batería 399",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1480",
+    "price": 79.23,
+    "status": false,
+    "stock": 79,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/33.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 680",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4097",
+    "price": 79.03,
+    "status": true,
+    "stock": 68,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg",
+      "https://example.com/repuestos/67.jpg",
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 806",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1320",
+    "price": 265.65,
+    "status": false,
+    "stock": 82,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 896",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8756",
+    "price": 421.68,
+    "status": true,
+    "stock": 49,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/50.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 224",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2768",
+    "price": 252.72,
+    "status": true,
+    "stock": 100,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/66.jpg"
+    ]
+  },
+  {
+    "title": "Batería 380",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3117",
+    "price": 392.54,
+    "status": true,
+    "stock": 50,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 596",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7400",
+    "price": 37.09,
+    "status": false,
+    "stock": 78,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/23.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 570",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1914",
+    "price": 127.4,
+    "status": true,
+    "stock": 10,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 737",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9747",
+    "price": 458.15,
+    "status": true,
+    "stock": 36,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg",
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 902",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7796",
+    "price": 264.92,
+    "status": true,
+    "stock": 47,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/33.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 351",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1288",
+    "price": 486.24,
+    "status": true,
+    "stock": 38,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 800",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1486",
+    "price": 18.57,
+    "status": false,
+    "stock": 16,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 548",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5086",
+    "price": 230.33,
+    "status": true,
+    "stock": 64,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 453",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7278",
+    "price": 452.14,
+    "status": true,
+    "stock": 4,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/45.jpg",
+      "https://example.com/repuestos/39.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 650",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3503",
+    "price": 22.87,
+    "status": true,
+    "stock": 20,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/23.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 123",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5456",
+    "price": 260.42,
+    "status": true,
+    "stock": 8,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/71.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 541",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3080",
+    "price": 382.02,
+    "status": false,
+    "stock": 44,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg",
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/76.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 715",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8373",
+    "price": 390.05,
+    "status": true,
+    "stock": 52,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 687",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7393",
+    "price": 301.76,
+    "status": true,
+    "stock": 23,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg",
+      "https://example.com/repuestos/86.jpg",
+      "https://example.com/repuestos/78.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 338",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6460",
+    "price": 441.54,
+    "status": true,
+    "stock": 83,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/20.jpg",
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 715",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4693",
+    "price": 414.86,
+    "status": true,
+    "stock": 87,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/65.jpg",
+      "https://example.com/repuestos/52.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 464",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5999",
+    "price": 447.87,
+    "status": false,
+    "stock": 63,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 807",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1947",
+    "price": 293.72,
+    "status": true,
+    "stock": 79,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 237",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9456",
+    "price": 455.89,
+    "status": false,
+    "stock": 1,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 564",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3164",
+    "price": 347.77,
+    "status": false,
+    "stock": 50,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/23.jpg",
+      "https://example.com/repuestos/85.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 783",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6944",
+    "price": 44.37,
+    "status": false,
+    "stock": 71,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/14.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 791",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3010",
+    "price": 376.18,
+    "status": true,
+    "stock": 42,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 610",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7081",
+    "price": 421.27,
+    "status": false,
+    "stock": 90,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/48.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 626",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5868",
+    "price": 290.9,
+    "status": false,
+    "stock": 29,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/12.jpg",
+      "https://example.com/repuestos/89.jpg"
+    ]
+  },
+  {
+    "title": "Batería 951",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7389",
+    "price": 373.53,
+    "status": false,
+    "stock": 59,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg",
+      "https://example.com/repuestos/53.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 792",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5614",
+    "price": 441.16,
+    "status": true,
+    "stock": 67,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/91.jpg",
+      "https://example.com/repuestos/82.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 460",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2807",
+    "price": 483.17,
+    "status": false,
+    "stock": 32,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/46.jpg",
+      "https://example.com/repuestos/46.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 494",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1470",
+    "price": 408.15,
+    "status": true,
+    "stock": 15,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/13.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 790",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7832",
+    "price": 126.99,
+    "status": false,
+    "stock": 96,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/53.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 457",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8142",
+    "price": 233.96,
+    "status": true,
+    "stock": 11,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/39.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 522",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5306",
+    "price": 60.4,
+    "status": false,
+    "stock": 44,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/15.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 694",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2335",
+    "price": 64.91,
+    "status": false,
+    "stock": 75,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/70.jpg",
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/48.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 994",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4696",
+    "price": 42.67,
+    "status": false,
+    "stock": 100,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 297",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3329",
+    "price": 111.03,
+    "status": false,
+    "stock": 21,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/18.jpg",
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 826",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4686",
+    "price": 448.96,
+    "status": false,
+    "stock": 19,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 402",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4006",
+    "price": 347.62,
+    "status": false,
+    "stock": 66,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/11.jpg",
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/59.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 228",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8123",
+    "price": 238.87,
+    "status": true,
+    "stock": 78,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg",
+      "https://example.com/repuestos/25.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 337",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2924",
+    "price": 47.51,
+    "status": false,
+    "stock": 72,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/91.jpg",
+      "https://example.com/repuestos/100.jpg",
+      "https://example.com/repuestos/45.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 567",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6261",
+    "price": 192.3,
+    "status": true,
+    "stock": 98,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 598",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2449",
+    "price": 275.69,
+    "status": false,
+    "stock": 78,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/4.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 514",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9319",
+    "price": 131.0,
+    "status": true,
+    "stock": 11,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/84.jpg",
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/39.jpg"
+    ]
+  },
+  {
+    "title": "Batería 666",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4691",
+    "price": 84.38,
+    "status": false,
+    "stock": 58,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 120",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4990",
+    "price": 69.23,
+    "status": false,
+    "stock": 78,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 101",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3950",
+    "price": 475.22,
+    "status": false,
+    "stock": 62,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 244",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7441",
+    "price": 334.66,
+    "status": false,
+    "stock": 89,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 919",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6258",
+    "price": 335.05,
+    "status": false,
+    "stock": 58,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/23.jpg",
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 624",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7399",
+    "price": 324.86,
+    "status": true,
+    "stock": 54,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 582",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2654",
+    "price": 325.65,
+    "status": true,
+    "stock": 7,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/32.jpg"
+    ]
+  },
+  {
+    "title": "Culata 205",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5584",
+    "price": 104.79,
+    "status": false,
+    "stock": 25,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/24.jpg",
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Culata 305",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5843",
+    "price": 406.49,
+    "status": true,
+    "stock": 59,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/48.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 335",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2032",
+    "price": 58.09,
+    "status": false,
+    "stock": 86,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/37.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 621",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3058",
+    "price": 478.39,
+    "status": true,
+    "stock": 25,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/85.jpg",
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/25.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 926",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1682",
+    "price": 205.75,
+    "status": true,
+    "stock": 33,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/98.jpg",
+      "https://example.com/repuestos/31.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 181",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2266",
+    "price": 319.48,
+    "status": true,
+    "stock": 95,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 158",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6180",
+    "price": 410.45,
+    "status": false,
+    "stock": 59,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/53.jpg",
+      "https://example.com/repuestos/62.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 234",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2861",
+    "price": 100.09,
+    "status": false,
+    "stock": 78,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/15.jpg",
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 507",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3491",
+    "price": 185.49,
+    "status": true,
+    "stock": 1,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/94.jpg",
+      "https://example.com/repuestos/14.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 413",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9854",
+    "price": 268.34,
+    "status": true,
+    "stock": 40,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/80.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 462",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4521",
+    "price": 82.46,
+    "status": false,
+    "stock": 15,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 891",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3241",
+    "price": 479.34,
+    "status": true,
+    "stock": 13,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/13.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 102",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2375",
+    "price": 113.79,
+    "status": true,
+    "stock": 99,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 886",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4995",
+    "price": 402.37,
+    "status": false,
+    "stock": 30,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/46.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 274",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5626",
+    "price": 436.84,
+    "status": true,
+    "stock": 35,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/14.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 893",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7397",
+    "price": 454.57,
+    "status": false,
+    "stock": 28,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/48.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 685",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6434",
+    "price": 279.46,
+    "status": false,
+    "stock": 69,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/85.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 729",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2145",
+    "price": 265.02,
+    "status": false,
+    "stock": 25,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 845",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3345",
+    "price": 174.3,
+    "status": false,
+    "stock": 74,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/57.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 801",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6212",
+    "price": 245.97,
+    "status": false,
+    "stock": 1,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/49.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 873",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3611",
+    "price": 77.97,
+    "status": false,
+    "stock": 52,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 926",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8865",
+    "price": 138.44,
+    "status": false,
+    "stock": 86,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 537",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3566",
+    "price": 123.89,
+    "status": false,
+    "stock": 36,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/29.jpg",
+      "https://example.com/repuestos/66.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 881",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3440",
+    "price": 412.71,
+    "status": false,
+    "stock": 59,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 504",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7814",
+    "price": 251.22,
+    "status": false,
+    "stock": 96,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 212",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5564",
+    "price": 55.52,
+    "status": true,
+    "stock": 3,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/1.jpg",
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 923",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1663",
+    "price": 119.66,
+    "status": true,
+    "stock": 63,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg",
+      "https://example.com/repuestos/82.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 165",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7619",
+    "price": 195.44,
+    "status": true,
+    "stock": 49,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/5.jpg",
+      "https://example.com/repuestos/14.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 932",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1495",
+    "price": 259.55,
+    "status": false,
+    "stock": 100,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/30.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 844",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5526",
+    "price": 191.04,
+    "status": false,
+    "stock": 39,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 253",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1793",
+    "price": 452.55,
+    "status": true,
+    "stock": 34,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/5.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 734",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7750",
+    "price": 375.96,
+    "status": true,
+    "stock": 87,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/27.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 999",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8928",
+    "price": 217.78,
+    "status": true,
+    "stock": 0,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 839",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9277",
+    "price": 222.47,
+    "status": true,
+    "stock": 100,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/57.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 738",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1501",
+    "price": 309.79,
+    "status": true,
+    "stock": 21,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/24.jpg",
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 841",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6729",
+    "price": 301.89,
+    "status": true,
+    "stock": 98,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/36.jpg",
+      "https://example.com/repuestos/66.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 781",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2024",
+    "price": 360.2,
+    "status": true,
+    "stock": 70,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/8.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 177",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8318",
+    "price": 318.62,
+    "status": true,
+    "stock": 75,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/46.jpg",
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 649",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4692",
+    "price": 110.58,
+    "status": false,
+    "stock": 62,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/9.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 774",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3747",
+    "price": 200.98,
+    "status": false,
+    "stock": 90,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg"
+    ]
+  },
+  {
+    "title": "Batería 707",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9882",
+    "price": 324.16,
+    "status": false,
+    "stock": 43,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 129",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7704",
+    "price": 294.78,
+    "status": true,
+    "stock": 70,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/45.jpg",
+      "https://example.com/repuestos/4.jpg",
+      "https://example.com/repuestos/47.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 833",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2400",
+    "price": 189.1,
+    "status": false,
+    "stock": 90,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/99.jpg",
+      "https://example.com/repuestos/9.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 167",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7516",
+    "price": 250.24,
+    "status": false,
+    "stock": 9,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/10.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 246",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7510",
+    "price": 186.04,
+    "status": false,
+    "stock": 5,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/98.jpg",
+      "https://example.com/repuestos/52.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 211",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6132",
+    "price": 121.93,
+    "status": true,
+    "stock": 29,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/55.jpg",
+      "https://example.com/repuestos/14.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 437",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9146",
+    "price": 202.04,
+    "status": true,
+    "stock": 92,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/73.jpg",
+      "https://example.com/repuestos/85.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 298",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3317",
+    "price": 360.92,
+    "status": false,
+    "stock": 55,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/82.jpg",
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 533",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7657",
+    "price": 362.67,
+    "status": true,
+    "stock": 97,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/50.jpg",
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 475",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4434",
+    "price": 475.42,
+    "status": true,
+    "stock": 92,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/50.jpg",
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 366",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7553",
+    "price": 105.46,
+    "status": true,
+    "stock": 27,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/64.jpg",
+      "https://example.com/repuestos/28.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 285",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5454",
+    "price": 283.35,
+    "status": false,
+    "stock": 23,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/91.jpg",
+      "https://example.com/repuestos/31.jpg",
+      "https://example.com/repuestos/82.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 320",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9599",
+    "price": 223.48,
+    "status": true,
+    "stock": 16,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 907",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7446",
+    "price": 312.47,
+    "status": true,
+    "stock": 20,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/20.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 217",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2826",
+    "price": 212.69,
+    "status": false,
+    "stock": 69,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/2.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 626",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2481",
+    "price": 365.27,
+    "status": true,
+    "stock": 81,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/58.jpg",
+      "https://example.com/repuestos/75.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 947",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8454",
+    "price": 129.58,
+    "status": false,
+    "stock": 98,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 657",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1543",
+    "price": 370.52,
+    "status": true,
+    "stock": 55,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 642",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4359",
+    "price": 138.66,
+    "status": false,
+    "stock": 90,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 384",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6499",
+    "price": 260.59,
+    "status": false,
+    "stock": 38,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/41.jpg",
+      "https://example.com/repuestos/18.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 422",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6662",
+    "price": 64.59,
+    "status": true,
+    "stock": 23,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/83.jpg",
+      "https://example.com/repuestos/61.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 714",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8374",
+    "price": 296.05,
+    "status": true,
+    "stock": 71,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/75.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 576",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9557",
+    "price": 429.71,
+    "status": false,
+    "stock": 98,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/61.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 848",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4654",
+    "price": 444.36,
+    "status": true,
+    "stock": 64,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Batería 332",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3100",
+    "price": 11.8,
+    "status": false,
+    "stock": 22,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/12.jpg",
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 795",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3310",
+    "price": 265.29,
+    "status": false,
+    "stock": 28,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/97.jpg",
+      "https://example.com/repuestos/13.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 350",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7845",
+    "price": 323.76,
+    "status": false,
+    "stock": 2,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/59.jpg",
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 868",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9676",
+    "price": 230.09,
+    "status": true,
+    "stock": 94,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/65.jpg",
+      "https://example.com/repuestos/47.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 181",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4811",
+    "price": 138.84,
+    "status": true,
+    "stock": 6,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/8.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 148",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3559",
+    "price": 79.96,
+    "status": false,
+    "stock": 85,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/13.jpg",
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 622",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3099",
+    "price": 346.86,
+    "status": true,
+    "stock": 82,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 519",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1755",
+    "price": 408.09,
+    "status": false,
+    "stock": 72,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/86.jpg",
+      "https://example.com/repuestos/21.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 491",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3906",
+    "price": 427.86,
+    "status": true,
+    "stock": 12,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg",
+      "https://example.com/repuestos/60.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 157",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9415",
+    "price": 194.19,
+    "status": true,
+    "stock": 5,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/59.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 919",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7255",
+    "price": 93.08,
+    "status": false,
+    "stock": 90,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/40.jpg",
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/55.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 684",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5476",
+    "price": 34.92,
+    "status": false,
+    "stock": 32,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/17.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 382",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5929",
+    "price": 20.94,
+    "status": false,
+    "stock": 53,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/7.jpg",
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/71.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 477",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5076",
+    "price": 163.56,
+    "status": false,
+    "stock": 77,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg",
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 793",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7022",
+    "price": 218.56,
+    "status": true,
+    "stock": 4,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 671",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1611",
+    "price": 357.99,
+    "status": false,
+    "stock": 24,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 550",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1336",
+    "price": 278.6,
+    "status": true,
+    "stock": 32,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/50.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 767",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6883",
+    "price": 217.26,
+    "status": false,
+    "stock": 18,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg",
+      "https://example.com/repuestos/77.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 214",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8875",
+    "price": 388.41,
+    "status": false,
+    "stock": 49,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/84.jpg",
+      "https://example.com/repuestos/47.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 329",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5119",
+    "price": 196.51,
+    "status": false,
+    "stock": 33,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/60.jpg",
+      "https://example.com/repuestos/55.jpg",
+      "https://example.com/repuestos/26.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 193",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6123",
+    "price": 61.48,
+    "status": false,
+    "stock": 41,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 902",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3584",
+    "price": 68.83,
+    "status": true,
+    "stock": 46,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/25.jpg",
+      "https://example.com/repuestos/32.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 764",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5109",
+    "price": 121.27,
+    "status": true,
+    "stock": 94,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg",
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/19.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 833",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1130",
+    "price": 349.53,
+    "status": false,
+    "stock": 25,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aire 567",
+    "description": "Filtro de aire de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8154",
+    "price": 119.32,
+    "status": false,
+    "stock": 76,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/86.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 771",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5092",
+    "price": 207.85,
+    "status": true,
+    "stock": 73,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/78.jpg",
+      "https://example.com/repuestos/37.jpg",
+      "https://example.com/repuestos/94.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 256",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7633",
+    "price": 301.68,
+    "status": false,
+    "stock": 92,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 456",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2316",
+    "price": 279.67,
+    "status": false,
+    "stock": 22,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/41.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 823",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9690",
+    "price": 492.22,
+    "status": true,
+    "stock": 17,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Batería 345",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5728",
+    "price": 485.44,
+    "status": true,
+    "stock": 29,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/38.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 882",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6925",
+    "price": 390.13,
+    "status": false,
+    "stock": 26,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/74.jpg"
+    ]
+  },
+  {
+    "title": "Espejo retrovisor 540",
+    "description": "Espejo retrovisor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7940",
+    "price": 430.25,
+    "status": true,
+    "stock": 96,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/78.jpg",
+      "https://example.com/repuestos/95.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 321",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4760",
+    "price": 70.3,
+    "status": false,
+    "stock": 30,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Culata 272",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7881",
+    "price": 221.63,
+    "status": false,
+    "stock": 80,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 792",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1178",
+    "price": 255.42,
+    "status": true,
+    "stock": 78,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/59.jpg",
+      "https://example.com/repuestos/79.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 378",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6166",
+    "price": 499.71,
+    "status": false,
+    "stock": 81,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 998",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5831",
+    "price": 132.37,
+    "status": false,
+    "stock": 96,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/77.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 549",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9630",
+    "price": 115.97,
+    "status": false,
+    "stock": 85,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/65.jpg",
+      "https://example.com/repuestos/41.jpg",
+      "https://example.com/repuestos/75.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 690",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8467",
+    "price": 499.73,
+    "status": true,
+    "stock": 13,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/58.jpg",
+      "https://example.com/repuestos/52.jpg"
+    ]
+  },
+  {
+    "title": "Bobina de encendido 660",
+    "description": "Bobina de encendido de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8377",
+    "price": 426.11,
+    "status": false,
+    "stock": 88,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/99.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 217",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7640",
+    "price": 410.97,
+    "status": true,
+    "stock": 42,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/65.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 404",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2436",
+    "price": 481.66,
+    "status": false,
+    "stock": 10,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/37.jpg",
+      "https://example.com/repuestos/18.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 224",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9599",
+    "price": 171.05,
+    "status": true,
+    "stock": 26,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/74.jpg",
+      "https://example.com/repuestos/42.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 983",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6791",
+    "price": 198.92,
+    "status": true,
+    "stock": 58,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/7.jpg",
+      "https://example.com/repuestos/6.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 287",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8966",
+    "price": 389.68,
+    "status": false,
+    "stock": 78,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg",
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 700",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8202",
+    "price": 225.37,
+    "status": false,
+    "stock": 2,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/3.jpg",
+      "https://example.com/repuestos/21.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 131",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9842",
+    "price": 125.86,
+    "status": false,
+    "stock": 28,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/75.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 414",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5993",
+    "price": 307.64,
+    "status": false,
+    "stock": 7,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/22.jpg",
+      "https://example.com/repuestos/69.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 240",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8751",
+    "price": 29.66,
+    "status": true,
+    "stock": 18,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 246",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1385",
+    "price": 428.73,
+    "status": true,
+    "stock": 97,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/4.jpg"
+    ]
+  },
+  {
+    "title": "Cárter de aceite 121",
+    "description": "Cárter de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3112",
+    "price": 412.79,
+    "status": true,
+    "stock": 32,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/36.jpg",
+      "https://example.com/repuestos/30.jpg",
+      "https://example.com/repuestos/67.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 923",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5376",
+    "price": 336.35,
+    "status": true,
+    "stock": 77,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/36.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 560",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6654",
+    "price": 189.29,
+    "status": true,
+    "stock": 3,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/19.jpg",
+      "https://example.com/repuestos/44.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 291",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1981",
+    "price": 285.46,
+    "status": true,
+    "stock": 26,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/31.jpg",
+      "https://example.com/repuestos/14.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 100",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5146",
+    "price": 398.96,
+    "status": false,
+    "stock": 84,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/54.jpg",
+      "https://example.com/repuestos/7.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 546",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2003",
+    "price": 357.22,
+    "status": false,
+    "stock": 37,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/99.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Modulo ABS 350",
+    "description": "Modulo ABS de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5997",
+    "price": 256.11,
+    "status": false,
+    "stock": 89,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/67.jpg",
+      "https://example.com/repuestos/70.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 495",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3356",
+    "price": 381.52,
+    "status": false,
+    "stock": 96,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/83.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 430",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6156",
+    "price": 192.09,
+    "status": false,
+    "stock": 25,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/44.jpg",
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/16.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 395",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3572",
+    "price": 73.24,
+    "status": true,
+    "stock": 20,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 537",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8078",
+    "price": 335.33,
+    "status": false,
+    "stock": 71,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg",
+      "https://example.com/repuestos/20.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 964",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4285",
+    "price": 164.3,
+    "status": true,
+    "stock": 77,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/81.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 590",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2040",
+    "price": 46.91,
+    "status": true,
+    "stock": 53,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/69.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Motor de arranque 226",
+    "description": "Motor de arranque de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7776",
+    "price": 300.21,
+    "status": true,
+    "stock": 98,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/56.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 190",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9013",
+    "price": 357.13,
+    "status": false,
+    "stock": 23,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/35.jpg",
+      "https://example.com/repuestos/72.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 803",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2527",
+    "price": 406.33,
+    "status": true,
+    "stock": 52,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/3.jpg",
+      "https://example.com/repuestos/91.jpg",
+      "https://example.com/repuestos/89.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 299",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2916",
+    "price": 70.55,
+    "status": true,
+    "stock": 10,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/52.jpg",
+      "https://example.com/repuestos/16.jpg",
+      "https://example.com/repuestos/80.jpg"
+    ]
+  },
+  {
+    "title": "Culata 707",
+    "description": "Culata de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4598",
+    "price": 448.34,
+    "status": false,
+    "stock": 65,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/5.jpg",
+      "https://example.com/repuestos/88.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 718",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2103",
+    "price": 468.2,
+    "status": false,
+    "stock": 4,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/98.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de combustible 710",
+    "description": "Filtro de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5978",
+    "price": 339.33,
+    "status": true,
+    "stock": 55,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 630",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8790",
+    "price": 89.94,
+    "status": false,
+    "stock": 53,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/7.jpg",
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/80.jpg"
+    ]
+  },
+  {
+    "title": "Llanta 824",
+    "description": "Llanta de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8216",
+    "price": 82.64,
+    "status": true,
+    "stock": 89,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/31.jpg",
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/48.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 859",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2895",
+    "price": 250.71,
+    "status": true,
+    "stock": 38,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/89.jpg",
+      "https://example.com/repuestos/17.jpg"
+    ]
+  },
+  {
+    "title": "Embrague 711",
+    "description": "Embrague de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3197",
+    "price": 144.81,
+    "status": false,
+    "stock": 85,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/98.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 226",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1787",
+    "price": 431.66,
+    "status": true,
+    "stock": 92,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/90.jpg",
+      "https://example.com/repuestos/100.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 118",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7558",
+    "price": 171.28,
+    "status": true,
+    "stock": 59,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/92.jpg",
+      "https://example.com/repuestos/51.jpg"
+    ]
+  },
+  {
+    "title": "Amortiguador 727",
+    "description": "Amortiguador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-9912",
+    "price": 86.94,
+    "status": true,
+    "stock": 84,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 245",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6675",
+    "price": 236.21,
+    "status": true,
+    "stock": 0,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/88.jpg",
+      "https://example.com/repuestos/11.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 914",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4543",
+    "price": 319.86,
+    "status": false,
+    "stock": 58,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/18.jpg"
+    ]
+  },
+  {
+    "title": "Bujía 620",
+    "description": "Bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5471",
+    "price": 89.05,
+    "status": false,
+    "stock": 70,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/95.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 622",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6448",
+    "price": 25.91,
+    "status": false,
+    "stock": 88,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/28.jpg",
+      "https://example.com/repuestos/53.jpg"
+    ]
+  },
+  {
+    "title": "Radiador 671",
+    "description": "Radiador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6913",
+    "price": 462.11,
+    "status": true,
+    "stock": 21,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/53.jpg",
+      "https://example.com/repuestos/92.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 399",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8485",
+    "price": 374.19,
+    "status": false,
+    "stock": 32,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/96.jpg"
+    ]
+  },
+  {
+    "title": "Aceite de motor 521",
+    "description": "Aceite de motor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7599",
+    "price": 27.9,
+    "status": true,
+    "stock": 53,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/4.jpg",
+      "https://example.com/repuestos/68.jpg",
+      "https://example.com/repuestos/91.jpg"
+    ]
+  },
+  {
+    "title": "Tensor de correa 315",
+    "description": "Tensor de correa de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-2194",
+    "price": 487.44,
+    "status": false,
+    "stock": 17,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/68.jpg"
+    ]
+  },
+  {
+    "title": "Turbocompresor 561",
+    "description": "Turbocompresor de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8122",
+    "price": 361.95,
+    "status": false,
+    "stock": 14,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/41.jpg",
+      "https://example.com/repuestos/54.jpg"
+    ]
+  },
+  {
+    "title": "Correa de distribución 562",
+    "description": "Correa de distribución de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4234",
+    "price": 41.03,
+    "status": true,
+    "stock": 88,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/41.jpg",
+      "https://example.com/repuestos/30.jpg"
+    ]
+  },
+  {
+    "title": "Compresor de aire acondicionado 992",
+    "description": "Compresor de aire acondicionado de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1169",
+    "price": 189.28,
+    "status": false,
+    "stock": 97,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/21.jpg",
+      "https://example.com/repuestos/32.jpg"
+    ]
+  },
+  {
+    "title": "Bombilla LED 793",
+    "description": "Bombilla LED de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7209",
+    "price": 492.84,
+    "status": true,
+    "stock": 22,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/49.jpg",
+      "https://example.com/repuestos/70.jpg",
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Batería 781",
+    "description": "Batería de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8284",
+    "price": 65.07,
+    "status": true,
+    "stock": 45,
+    "category": "Motor",
+    "thumbnails": [
+      "https://example.com/repuestos/76.jpg",
+      "https://example.com/repuestos/34.jpg"
+    ]
+  },
+  {
+    "title": "Sensor de oxígeno 438",
+    "description": "Sensor de oxígeno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-7501",
+    "price": 381.27,
+    "status": true,
+    "stock": 33,
+    "category": "Transmisión",
+    "thumbnails": [
+      "https://example.com/repuestos/93.jpg",
+      "https://example.com/repuestos/87.jpg",
+      "https://example.com/repuestos/36.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 677",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1209",
+    "price": 475.96,
+    "status": true,
+    "stock": 35,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/86.jpg",
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Alternador 533",
+    "description": "Alternador de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6403",
+    "price": 487.41,
+    "status": false,
+    "stock": 14,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/53.jpg",
+      "https://example.com/repuestos/81.jpg",
+      "https://example.com/repuestos/1.jpg"
+    ]
+  },
+  {
+    "title": "Cable de bujía 621",
+    "description": "Cable de bujía de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-3514",
+    "price": 299.88,
+    "status": false,
+    "stock": 81,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/42.jpg",
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/93.jpg"
+    ]
+  },
+  {
+    "title": "Pastillas de freno 223",
+    "description": "Pastillas de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-1596",
+    "price": 266.73,
+    "status": true,
+    "stock": 85,
+    "category": "Suspensión",
+    "thumbnails": [
+      "https://example.com/repuestos/33.jpg",
+      "https://example.com/repuestos/58.jpg"
+    ]
+  },
+  {
+    "title": "Bomba de combustible 951",
+    "description": "Bomba de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6710",
+    "price": 115.07,
+    "status": false,
+    "stock": 96,
+    "category": "Eléctrico",
+    "thumbnails": [
+      "https://example.com/repuestos/2.jpg",
+      "https://example.com/repuestos/79.jpg",
+      "https://example.com/repuestos/22.jpg"
+    ]
+  },
+  {
+    "title": "Resorte de suspensión 648",
+    "description": "Resorte de suspensión de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4775",
+    "price": 109.08,
+    "status": false,
+    "stock": 65,
+    "category": "Iluminación",
+    "thumbnails": [
+      "https://example.com/repuestos/1.jpg",
+      "https://example.com/repuestos/72.jpg"
+    ]
+  },
+  {
+    "title": "Inyector de combustible 609",
+    "description": "Inyector de combustible de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-6339",
+    "price": 370.89,
+    "status": false,
+    "stock": 24,
+    "category": "Frenos",
+    "thumbnails": [
+      "https://example.com/repuestos/43.jpg",
+      "https://example.com/repuestos/38.jpg",
+      "https://example.com/repuestos/22.jpg"
+    ]
+  },
+  {
+    "title": "Rodamiento 854",
+    "description": "Rodamiento de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-5278",
+    "price": 281.55,
+    "status": true,
+    "stock": 13,
+    "category": "Carrocería",
+    "thumbnails": [
+      "https://example.com/repuestos/5.jpg",
+      "https://example.com/repuestos/71.jpg",
+      "https://example.com/repuestos/87.jpg"
+    ]
+  },
+  {
+    "title": "Filtro de aceite 797",
+    "description": "Filtro de aceite de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-4544",
+    "price": 78.59,
+    "status": false,
+    "stock": 36,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/63.jpg"
+    ]
+  },
+  {
+    "title": "Disco de freno 972",
+    "description": "Disco de freno de alta calidad para diferentes modelos de vehículos.",
+    "code": "RPT-8905",
+    "price": 372.21,
+    "status": false,
+    "stock": 81,
+    "category": "Escape",
+    "thumbnails": [
+      "https://example.com/repuestos/56.jpg",
+      "https://example.com/repuestos/34.jpg",
+      "https://example.com/repuestos/18.jpg"
+    ]
+  }
+]

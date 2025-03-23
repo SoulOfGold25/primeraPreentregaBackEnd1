@@ -32,8 +32,67 @@
         {{/each}}
     </ul>
 
+<script>
+    let cartId = null;
 
-    <a href="/api/carts/{{cartId}}">🛒 Ver carrito</a>
+    // Función para obtener el cartId más reciente desde el servidor o crear uno nuevo si no existe
+    async function fetchCartId() {
+        try {
+            const response = await fetch('/api/carts/latest');
+            
+            if (!response.ok) {
+                // Si no se encuentra un carrito, se crea uno nuevo
+                const createCartResponse = await fetch('/api/carts', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                const newCart = await createCartResponse.json();
+                cartId = newCart._id;  // Usar el nuevo cartId creado
+            } else {
+                // Si el carrito ya existe, obtener su ID
+                const data = await response.json();
+                cartId = data.cartId;
+            }
+
+            console.log("Cart ID obtenido:", cartId);
+
+            // Mostrar el enlace del carrito solo si cartId es válido
+            if (cartId) {
+                document.getElementById("cart-link").style.display = "inline-block";
+                document.getElementById("cart-link").href = `/carts/${cartId}`;
+            } else {
+                console.log("No hay carrito activo.");
+            }
+
+        } catch (error) {
+            console.error("Error al obtener el cartId:", error);
+        }
+    }
+
+    // Función para agregar un producto al carrito
+    async function addToCart(productId) {
+        if (!cartId) await fetchCartId();  // Asegura que el cartId esté disponible
+
+        const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ quantity: 1 })
+        });
+
+        const data = await response.json();
+        if (data.success) {
+            alert("Producto agregado al carrito");
+        } else {
+            alert("Error al agregar el producto");
+        }
+    }
+
+    // Llamamos a la función para obtener el cartId al cargar la página
+    fetchCartId();
+</script>
+
+<!-- Enlace para ver el carrito, inicialmente oculto -->
+<a id="cart-link" href="#" style="display:none;">🛒 Ver carrito</a>
 
 
     <p>Página {{page}} de {{totalPages}}</p>
@@ -48,32 +107,4 @@
 </div>
 
 <script src="/socket.io/socket.io.js"></script>
-<script></script>
-<script>
-    let cartId = null;
 
-async function fetchCartId() {
-    const response = await fetch('/api/carts/latest');
-    const data = await response.json();
-    cartId = data.cartId;
-}
-
-async function addToCart(productId) {
-    if (!cartId) await fetchCartId(); 
-
-    const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ quantity: 1 })
-    });
-
-    const data = await response.json();
-    if (data.success) {
-        alert("Producto agregado al carrito");
-    } else {
-        alert("Error al agregar el producto");
-    }
-}
-
-fetchCartId(); 
-</script>
