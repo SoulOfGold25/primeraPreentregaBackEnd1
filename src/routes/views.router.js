@@ -94,5 +94,18 @@ viewsRouter.get("/carts/:cid", async (req, res) => {
     }
 });
 
+// rutas para login y register
+viewsRouter.get('/', (req, res) => {
+    res.render('home', { title: 'Home' });
+});
+
+viewsRouter.get('/login', (req, res) => {
+    res.render('login', { title: 'Iniciar Sesión' });
+});
+
+viewsRouter.get('/register', (req, res) => {
+    res.render('register', { title: 'Registro' });
+});
+
 
 export default viewsRouter;

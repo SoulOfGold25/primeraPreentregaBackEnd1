@@ -2,68 +2,77 @@ import express from "express";
 import productsRouter from "./routes/product.router.js";
 import cartRouter from "./routes/cart.router.js";
 import { engine } from "express-handlebars";
-import  { Server } from "socket.io";
+import { Server } from "socket.io";
 import http from "http";
 import viewsRouter from "./routes/views.router.js";
 import ProductManager from "./ProductManager.js";
 import connectMongoDB from "./data/db.js";
+import passport from './config/passport.config.js';
+import sessionsRouter from './routes/sessions.router.js';
+import cookieParser from 'cookie-parser';
 
-//Inicializo Express
+// Inicializo Express
 const app = express();
+
+// Middleware para procesar JSON
+app.use(express.json());
+
+// Middleware para procesar datos codificados en URL (opcional, si usas formularios)
+app.use(express.urlencoded({ extended: true }));
 
 const server = http.createServer(app);
 const io = new Server(server);
 
-//configuracion de handlebars
+// Configuración de Handlebars
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./src/views");
 
-//Me conecto con MongoDB
+// Configuración de Passport
+app.use(express.json());
+app.use(cookieParser());
+app.use(passport.initialize());
+
+// Me conecto con MongoDB
 connectMongoDB();
 
-//puerto
-const PORT = 8080;  
+// Puerto
+const PORT = 8080;
 
-//Middleware
-app.use(express.json());
+// Habilitamos la carpeta public
+app.use(express.static("public"));
 
-
-//Habilitamos la carpeta public
-app.use(express.static("public"))
-
-//endpoints
+// Endpoints
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartRouter);
 app.use("/", viewsRouter);
+app.use('/api/sessions', sessionsRouter);
 
-//websockets
+// WebSockets
 const productManager = new ProductManager("./src/data/products.json");
-io.on("connection", (socket)=>{
+io.on("connection", (socket) => {
     console.log("Nuevo usuario conectado");
 
-    socket.on("newProduct", async (productData)=>{
+    socket.on("newProduct", async (productData) => {
         try {
             const newProduct = await productManager.addProduct(productData);
-
-            io.emit("productAdded", newProduct)
+            io.emit("productAdded", newProduct);
         } catch (error) {
-            console.error("error añadiendo producto ", error.message);
+            console.error("Error añadiendo producto ", error.message);
         }
     });
 
     socket.on("deleteProductById", async (id) => {
         try {
-            await productManager.deleteProductsById(id); // Elimina el producto por ID
-            const updatedProducts = await productManager.getProduct(); // Obtiene la lista actualizada
-            io.emit("productDeleted", updatedProducts); // Envia la lista a todos los clientes
+            await productManager.deleteProductsById(id);
+            const updatedProducts = await productManager.getProduct();
+            io.emit("productDeleted", updatedProducts);
         } catch (error) {
             console.error("Error al eliminar producto:", error.message);
         }
     });
-
 });
 
 server.listen(PORT, () => {
-    console.log(`Servido iniciado en: http://localhost:${PORT}`);
+    console.log(`Servidor iniciado en: http://localhost:${PORT}`);
 });
