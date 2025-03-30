@@ -1,94 +1,93 @@
-import fs from "fs";
+import Product from './models/product.model.js';
 
-class ProductManager{
-    constructor(pathFile){
-        this. pathFile = pathFile;
-    }
+class ProductManager {
+    constructor() {}
 
-    //getProducts
-    getProduct = async() => {
+    // Crear un nuevo producto
+    addProduct = async (productData) => {
         try {
-            //leemos el archivo y guardamos su contenido
-            const fileData = await fs.promises.readFile(this.pathFile, "utf-8");
-            const data = JSON.parse(fileData);
-            return data;
+            const { title, description, code, price, stock, category } = productData;
+
+            // Validar que los campos requeridos estén presentes
+            if (!title || !description || !code || !price || !stock || !category) {
+                throw new Error('Todos los campos requeridos deben estar presentes');
+            }
+
+            // Validar que el código sea único
+            const existingProduct = await Product.findOne({ code });
+            if (existingProduct) {
+                throw new Error(`El código "${code}" ya está en uso`);
+            }
+
+            const newProduct = new Product(productData);
+            await newProduct.save();
+            return newProduct;
         } catch (error) {
-            throw new Error(`Error al leer el archivo de productos ${error.message}`);
+            throw new Error(`Error al crear el producto: ${error.message}`);
         }
-    }
+    };
 
-    //getProductsById
-
-    getProductsById = async (idProduct) =>{
+    // Obtener todos los productos con filtros, paginación y ordenamiento
+    getProducts = async (query = {}, options = {}) => {
         try {
-            //leo contenido del archivo JSON
-            const fileData = await fs.promises.readFile(this.pathFile, "utf-8");
-            const data = JSON.parse(fileData);
-            const product = data.findIndex((prod) => prod.id === parseInt(idProduct)); 
-            if (!product) throw new Error(`Producto no encontrado ¿El id: ${idProduct} es correcto?`);
+            const { limit = 10, page = 1, sort, ...filters } = options;
+
+            const sortOption = sort === 'asc' ? { price: 1 } : sort === 'desc' ? { price: -1 } : {};
+            const products = await Product.paginate(filters, {
+                limit: parseInt(limit),
+                page: parseInt(page),
+                sort: sortOption
+            });
+
+            return {
+                status: 'success',
+                payload: products.docs,
+                totalPages: products.totalPages,
+                prevPage: products.prevPage,
+                nextPage: products.nextPage,
+                page: products.page,
+                hasPrevPage: products.hasPrevPage,
+                hasNextPage: products.hasNextPage,
+                prevLink: products.hasPrevPage ? `/api/products?page=${products.prevPage}` : null,
+                nextLink: products.hasNextPage ? `/api/products?page=${products.nextPage}` : null
+            };
+        } catch (error) {
+            throw new Error(`Error al obtener los productos: ${error.message}`);
+        }
+    };
+
+    // Obtener un producto por ID
+    getProductById = async (id) => {
+        try {
+            const product = await Product.findById(id);
+            if (!product) throw new Error(`Producto no encontrado con el id: ${id}`);
             return product;
         } catch (error) {
-            throw new Error(`Fallamos al obtener el producto ${error.message}`);
+            throw new Error(`Error al obtener el producto: ${error.message}`);
         }
-    }
+    };
 
-    //AddProduct
-    addProduct = async (newProduct) => {
+    // Actualizar un producto por ID
+    updateProduct = async (id, productData) => {
         try {
-            const fileData = await fs.promises.readFile(this.pathFile, "utf-8");
-            const data = JSON.parse(fileData);
-
-            // Generar un nuevo ID basado en el último ID del array
-            const newId = data.length > 0 ? data[data.length - 1].id + 1 : 1;
-            const productToAdd = { id: newId, ...newProduct };
-
-            data.push(productToAdd);
-            await fs.promises.writeFile(this.pathFile, JSON.stringify(data, null, 2));
-
-            return productToAdd;
-        } catch (error) {
-            throw new Error(`Error al agregar el producto: ${error.message}`);
-        }
-    }
-    //setProductById
-    setProductsById = async (idProduct, updatedProduct) => {
-        try {
-            const fileData = await fs.promises.readFile(this.pathFile, "utf-8");
-            let data = JSON.parse(fileData);
-
-            const productIndex = data.findIndex((prod) => prod.id === parseInt(idProduct));
-            if (productIndex === -1) throw new Error(`Producto con ID ${idProduct} no encontrado.`);
-
-            // Mantener el ID original y actualizar el resto de los campos
-            data[productIndex] = { ...data[productIndex], ...updatedProduct };
-
-            await fs.promises.writeFile(this.pathFile, JSON.stringify(data, null, 2));
-
-            return data[productIndex];
+            const updatedProduct = await Product.findByIdAndUpdate(id, productData, { new: true });
+            if (!updatedProduct) throw new Error(`Producto no encontrado con el id: ${id}`);
+            return updatedProduct;
         } catch (error) {
             throw new Error(`Error al actualizar el producto: ${error.message}`);
         }
-    }
-    //DeleteProductById
+    };
 
-    deleteProductsById = async (idProduct) => {
+    // Eliminar un producto por ID
+    deleteProduct = async (id) => {
         try {
-            const fileData = await fs.promises.readFile(this.pathFile, "utf-8");
-            let data = JSON.parse(fileData);
-
-            const newData = data.filter((prod) => prod.id !== parseInt(idProduct));
-
-            if (newData.length === data.length) throw new Error(`No se encontró el producto con ID ${idProduct}.`);
-
-            await fs.promises.writeFile(this.pathFile, JSON.stringify(newData, null, 2));
-
-            return `Producto con ID ${idProduct} eliminado correctamente.`;
+            const deletedProduct = await Product.findByIdAndDelete(id);
+            if (!deletedProduct) throw new Error(`Producto no encontrado con el id: ${id}`);
+            return deletedProduct;
         } catch (error) {
             throw new Error(`Error al eliminar el producto: ${error.message}`);
         }
-    }
-
+    };
 }
 
-//Exportamos la clase
 export default ProductManager;

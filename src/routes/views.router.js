@@ -1,44 +1,42 @@
 import express from "express";
-import ProductManager from "../ProductManager.js";
 import Product from "../models/product.model.js";
-import Cart from "../models/cart.model.js"
+import Cart from "../models/cart.model.js";
+import ProductManager from "../ProductManager.js";
 
 const viewsRouter = express.Router();
-const productsManager = new ProductManager("./src/data/products.json");
-
-viewsRouter.get("/", async(req, res)=>{
+const productManager = new ProductManager();
+// Ruta Home: Mostrar productos con paginación, filtros y ordenamiento
+viewsRouter.get("/", async (req, res) => {
     try {
+        const limit = parseInt(req.query.limit) || 10;
         const page = parseInt(req.query.page) || 1;
-        const limit = 10;
+        const sort = req.query.sort === "asc" ? { price: 1 } : req.query.sort === "desc" ? { price: -1 } : {};
+        const query = req.query.query ? { $or: [{ category: req.query.query }, { status: req.query.query === "true" }] } : {};
 
-        //Campo por el cual ordenar
-        const sortBy = req.query.sortBy || "price"; 
-        //Ascendente (1) o Descendente (-1)
-        const sortOrder = req.query.sortOrder === "desc" ? -1 : 1; 
-        //Query para aplicar filtro y lo convierto en booleano
-        const availableOnly = req.query.available === "true"
-        //Si available es verdadero  filtrara por status verdadero
-        const filter = availableOnly ? {status:true} : {}
+        const productsData = await Product.paginate(query, {
+            limit,
+            page,
+            sort,
+            lean: true, // Convierte los documentos en objetos simples
+        });
 
-        const products = await Product.paginate(
-            filter, 
-            {   
-                limit, 
-                page,
-                //Aplico el orden 
-                sort: {
-                    [sortBy]: sortOrder
-                },
-                lean: true 
-            }
-        );
-        
-        //modifico el res para mantener los filtros desde handlebars
-        res.render("home", {...products, sortBy, sortOrder, availableOnly});
+        res.render("home", {
+            status: "success",
+            products: productsData.docs,
+            totalPages: productsData.totalPages,
+            prevPage: productsData.prevPage,
+            nextPage: productsData.nextPage,
+            page: productsData.page,
+            hasPrevPage: productsData.hasPrevPage,
+            hasNextPage: productsData.hasNextPage,
+            prevLink: productsData.hasPrevPage ? `/products?limit=${limit}&page=${productsData.prevPage}&sort=${req.query.sort}&query=${req.query.query}` : null,
+            nextLink: productsData.hasNextPage ? `/products?limit=${limit}&page=${productsData.nextPage}&sort=${req.query.sort}&query=${req.query.query}` : null,
+        });
     } catch (error) {
-        res.status(500).send({status: "error", message: message.error});
+        console.error("Error al obtener productos:", error.message);
+        res.status(500).send({ status: "error", message: error.message });
     }
-})
+});
 
 // Ruta para ver los detalles del producto
 viewsRouter.get("/products/:pid", async (req, res) => {
@@ -49,56 +47,38 @@ viewsRouter.get("/products/:pid", async (req, res) => {
             return res.status(404).send("Producto no encontrado");
         }
 
-        // Renderizar vista con los detalles del producto
         res.render("productDetail", { product });
     } catch (error) {
         res.status(500).send("Error al obtener los detalles del producto");
     }
 });
 
-
-viewsRouter.get("/", async (req, res)=>{
+// Ruta para ver productos en tiempo real
+viewsRouter.get("/realtimeproducts", async (req, res) => {
     try {
-        const products = await productsManager.getProduct();
-        res.render("home", {products});
+        const products = await Product.find().lean();
+        res.render("realTimeProducts", { products });
     } catch (error) {
-        res.status(500).send({message: error.message})
+        res.status(500).send({ message: error.message });
     }
-
-})
-
-viewsRouter.get("/realtimeproducts", async (req, res)=>{
-    try {
-        const products = await productsManager.getProduct();
-        res.render("realTimeProducts", {products});
-    } catch (error) {
-        res.status(500).send({message: error.message})
-    }
-})
+});
 
 // Ruta para ver los detalles del carrito
 viewsRouter.get("/carts/:cid", async (req, res) => {
     try {
-        // Busca el carrito por su ID
         const cart = await Cart.findById(req.params.cid).populate('products.product').lean();
 
-        // Si no se encuentra el carrito, retornar error 404
         if (!cart) {
             return res.status(404).send("Carrito no encontrado");
         }
 
-        // Renderiza la vista con los detalles del carrito
         res.render("cart", { cart });
     } catch (error) {
         res.status(500).send("Error al obtener los detalles del carrito");
     }
 });
 
-// rutas para login y register
-viewsRouter.get('/', (req, res) => {
-    res.render('home', { title: 'Home' });
-});
-
+// Rutas para login y registro
 viewsRouter.get('/login', (req, res) => {
     res.render('login', { title: 'Iniciar Sesión' });
 });
@@ -106,6 +86,5 @@ viewsRouter.get('/login', (req, res) => {
 viewsRouter.get('/register', (req, res) => {
     res.render('register', { title: 'Registro' });
 });
-
 
 export default viewsRouter;

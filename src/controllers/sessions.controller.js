@@ -11,6 +11,7 @@ export const login = async (req, res) => {
 
         // Validar que ambos campos estén presentes
         if (!email || !password) {
+            console.error('Faltan campos obligatorios para login:', { email, password });
             return res.status(400).send({ message: 'Todos los campos son obligatorios' });
         }
 
@@ -35,11 +36,13 @@ export const login = async (req, res) => {
 
         // Si todo es correcto, generar un token
         const token = generateJWToken(user);
+        console.log('Token JWT generado:', token);
+
         res.cookie('jwtCookieToken', token, { httpOnly: true });
         res.send({ message: 'Login exitoso' });
     } catch (error) {
         console.error('Error en el login:', error.message);
-        res.status(500).send({ message: error.message });
+        res.status(500).send({ message: 'Error interno del servidor' });
     }
 };
 
