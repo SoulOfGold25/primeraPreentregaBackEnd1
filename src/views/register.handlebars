@@ -1,30 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-</head>
-<body>
+<div>
     <h1>Registro</h1>
-    <form action="/api/sessions/register" method="POST">
-        <label for="first_name">Nombre:</label>
-        <input type="text" id="first_name" name="first_name" required>
-        <br>
-        <label for="last_name">Apellido:</label>
-        <input type="text" id="last_name" name="last_name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="age">Edad:</label>
-        <input type="number" id="age" name="age" required>
-        <br>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Registrarse</button>
+    <form id="registerForm">
+
+        <label>Nombre</label>
+        <input name="first_name">
+        <br/>
+        <label>Apellido</label>
+        <input name="last_name">
+        <br/>
+        <label>Email</label>
+        <input name="email">
+        <br/>
+        <label>Edad</label>
+        <input name="age">
+        <br/>
+        <label>Contraseña</label>
+        <input name="password">
+
+        <input type="submit">
     </form>
-    <a href="/login">Iniciar Sesión</a>
-</body>
-</html>
+    <p>¿Ya tienes una cuenta? <a href="/users/login">Ingresa aquí</a></p>
+</div>
+<script src="/js/register.js"></script>

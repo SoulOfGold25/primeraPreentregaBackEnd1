@@ -2,6 +2,7 @@ import express from "express";
 import Product from "../models/product.model.js";
 import Cart from "../models/cart.model.js";
 import ProductManager from "../ProductManager.js";
+import { passportCall, authorization } from '../utils.js';
 
 const viewsRouter = express.Router();
 const productManager = new ProductManager();
@@ -85,6 +86,16 @@ viewsRouter.get('/login', (req, res) => {
 
 viewsRouter.get('/register', (req, res) => {
     res.render('register', { title: 'Registro' });
+});
+
+// Perfil de User
+viewsRouter.get("/", passportCall('jwt'), (req, res) => {
+    res.render("profile", { user: req.user /* ->Habilitar para JWT */ });
+});
+
+// Perfil del ADMIN
+viewsRouter.get("/dashboard-admin", passportCall('jwt'), authorization("admin"), (req, res) => {
+    res.render("admin", { user: req.user /* ->Habilitar para JWT */ });
 });
 
 export default viewsRouter;

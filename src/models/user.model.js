@@ -1,42 +1,27 @@
 import mongoose from 'mongoose';
-import bcrypt from 'bcrypt';
 
-// Defino el esquema de usuario
-const userSchema = new mongoose.Schema({
-    first_name: { 
-        type: String, 
-        required: true },
-    last_name: { 
-        type: String, 
-        required: true },
-    email: { 
-        type: String, 
-        required: true, 
-        unique: true },
-    age: { 
-        type: Number, 
-        required: true },
-    password: { 
-        type: String, 
-        required: true },
-    cart: { 
-        type: mongoose.Schema.Types.ObjectId, 
-        ref: 'Carts' },
-    role: { 
-        type: String, 
-        default: 'user' }
-});
+const collection = 'users';
 
-// Middleware para encriptar la contraseña
-userSchema.pre('save', function(next) {
-    if (this.isModified('password')) {
-        this.password = bcrypt.hashSync(this.password, 10);
+const schema = new mongoose.Schema({
+    first_name: String,
+    last_name: String,
+    email: {
+        type: String,
+        unique: true
+    },
+    age: Number,
+    password: String, // Aquí se almacenará el hash de la contraseña
+    cart: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Carts' // Referencia al modelo Carts
+    },
+    role: {
+        type: String,
+        enum: ['admin', 'user'],
+        default: 'user'
     }
-    next();
 });
 
-// Creo el modelo de usuario
-const User = mongoose.model('User', userSchema);
+const userModel = mongoose.model(collection, schema);
 
-// Exporto el modelo
-export default User;
+export default userModel;

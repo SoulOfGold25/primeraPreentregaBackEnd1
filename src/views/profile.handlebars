@@ -1,0 +1,15 @@
+<div>
+    <h1>Tu perfil (sin datos sensibles)</h1>
+    <p>{{user.name}}</p>
+    <p>{{user.email}}</p>
+    <p>{{user.age}}</p>
+
+    <br>
+
+    {{#if user.isAdmin}}
+    <p> Admin-dashBoard: <a href="/users/dashboard-admin">Ingresa</a></p>
+    {{/if}}
+
+    <p> <a href="/api/sessions/logout">Logout</a></p>
+</div>
+<script src="/js/users.js"></script>

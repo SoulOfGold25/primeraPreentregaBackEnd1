@@ -1,21 +1,75 @@
+// Importar dependencias
 import express from "express";
-import productsRouter from "./routes/product.router.js";
-import cartRouter from "./routes/cart.router.js";
 import { engine } from "express-handlebars";
 import { Server } from "socket.io";
 import http from "http";
+
+//import routes
+import productsRouter from "./routes/product.router.js";
+import cartRouter from "./routes/cart.router.js";
 import viewsRouter from "./routes/views.router.js";
-import Product from "./models/product.model.js"; 
+import sessionsRouter from './routes/sessions.router.js'
+import usersViewRouter from './routes/users.views.router.js';
+
+//import Data
 import connectMongoDB from "./data/db.js";
-import passport from './config/passport.config.js';
-import sessionsRouter from './routes/sessions.router.js';
+import Product from "./models/product.model.js"; 
+import MongoStore from 'connect-mongo';
+import mongoose from 'mongoose';
+
+// Import passport y session
+import passport from 'passport';
 import cookieParser from 'cookie-parser';
+import session from 'express-session';
+import __dirname from './utils.js';
+import dotenv from 'dotenv'
+import initializePassport from './config/passport.config.js';
 
 // Inicializo Express
 const app = express();
+dotenv.config() // Esto es para las variables de entorno
 
-// Middleware para procesar JSON
+//JSON settings:
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Configuración de Handlebars
+app.engine("handlebars", engine());
+app.set("view engine", "handlebars");
+app.set("views", "./src/views");
+app.set('views', __dirname + '/views')
+app.use(express.static(__dirname + '/public'));
+
+//Cookies
+//router.use(cookieParser());
+app.use(cookieParser("CoderS3cr3tC0d3"));
+
+// Configurar express-session
+app.use(
+    session({
+        secret: "miClaveSecreta",
+        resave: false,
+        saveUninitialized: false,
+        store: MongoStore.create({
+            mongoUrl: process.env.MONGO_URL,
+            ttl: 3600,
+        }),
+        cookie: { maxAge: 60000 },
+    })
+);
+
+// Configuración de Passport
+initializePassport(); // <- Ejecución de la configuración
+app.use(passport.initialize());
+app.use(passport.session()); // <- Asegúrate de que esto esté después de express-session
+
+// Endpoints
+app.use("/api/products", productsRouter);
+app.use("/api/carts", cartRouter);
+app.use("/", viewsRouter);
+app.use('/api/sessions', sessionsRouter);
+app.use('/users', usersViewRouter);
+app.use("/api/sessions", sessionsRouter); // <- Es donde estan las APIs de register y Login
 
 // Middleware para procesar datos codificados en URL (opcional, si usas formularios)
 app.use(express.urlencoded({ extended: true }));
@@ -23,15 +77,6 @@ app.use(express.urlencoded({ extended: true }));
 const server = http.createServer(app);
 const io = new Server(server);
 
-// Configuración de Handlebars
-app.engine("handlebars", engine());
-app.set("view engine", "handlebars");
-app.set("views", "./src/views");
-
-// Configuración de Passport
-app.use(express.json());
-app.use(cookieParser());
-app.use(passport.initialize());
 
 // Me conecto con MongoDB
 connectMongoDB();
@@ -42,11 +87,7 @@ const PORT = 8080;
 // Habilitamos la carpeta public
 app.use(express.static("public"));
 
-// Endpoints
-app.use("/api/products", productsRouter);
-app.use("/api/carts", cartRouter);
-app.use("/", viewsRouter);
-app.use('/api/sessions', sessionsRouter);
+
 
 // WebSockets
 io.on("connection", (socket) => {
