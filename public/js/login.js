@@ -5,6 +5,7 @@ form.addEventListener('submit', e => {
     const data = new FormData(form);
     const obj = {};
     data.forEach((value, key) => obj[key] = value);
+
     fetch('/api/sessions/login', {
         method: 'POST',
         body: JSON.stringify(obj),
@@ -13,26 +14,21 @@ form.addEventListener('submit', e => {
         }
     }).then(result => {
         if (result.status === 200) {
+            result.json().then(json => {
+                console.log("Respuesta del login:", json);
+                console.log("Cookies:", document.cookie);
+                alert("Login realizado con éxito!");
+            });
 
-            result.json()
-                .then(json => {
-                    // 1er:localStorage - analizamos que nos llega al cliente
-                    console.log(json);
-
-                    // localStorage.setItem('authToken', json.jwt)
-
-
-                    // 2do:cookie
-                    console.log("Cookies generadas:");
-                    console.log(document.cookie)
-
-                    alert("Login realizado con exito!")
-
-                })
-            window.location.replace('/users');
+            // Redirigir al perfil del usuario
+            window.location.replace('/');
         } else if (result.status === 401) {
-            console.log(result);
-            alert("Login invalido revisa tus credenciales!");
+            alert("Login inválido. Revisa tus credenciales.");
+        } else {
+            alert("Error inesperado al intentar loguearse.");
         }
-    })
-})
+    }).catch(err => {
+        console.error("Error al procesar el login:", err);
+        alert("Error de red o servidor.");
+    });
+});

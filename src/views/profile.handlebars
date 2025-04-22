@@ -1,15 +1,14 @@
-<div>
-    <h1>Tu perfil (sin datos sensibles)</h1>
-    <p>{{user.name}}</p>
-    <p>{{user.email}}</p>
-    <p>{{user.age}}</p>
+<h1>👤 Perfil de Usuario</h1>
 
-    <br>
+<ul>
+  <li><strong>Nombre:</strong> {{user.name}}</li>
+  <li><strong>Email:</strong> {{user.email}}</li>
+  <li><strong>Edad:</strong> {{user.age}}</li>
+  <li><strong>Rol:</strong> {{user.role}}</li>
+</ul>
 
-    {{#if user.isAdmin}}
-    <p> Admin-dashBoard: <a href="/users/dashboard-admin">Ingresa</a></p>
-    {{/if}}
+{{#if (eq user.role "admin")}}
+  <p style="color: green;"><strong>¡Tienes permisos de administrador!</strong></p>
+{{/if}}
 
-    <p> <a href="/api/sessions/logout">Logout</a></p>
-</div>
-<script src="/js/users.js"></script>
+<a href="/api/sessions/logout">Cerrar sesión</a>

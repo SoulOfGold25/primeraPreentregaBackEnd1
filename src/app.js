@@ -1,99 +1,78 @@
-// Importar dependencias
+// ----------------- IMPORTS -----------------
 import express from "express";
 import { engine } from "express-handlebars";
 import { Server } from "socket.io";
 import http from "http";
+import passport from "passport";
+import cookieParser from "cookie-parser";
+import session from "express-session";
+import MongoStore from "connect-mongo";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import path from "path";
 
-//import routes
-import productsRouter from "./routes/product.router.js";
-import cartRouter from "./routes/cart.router.js";
-import viewsRouter from "./routes/views.router.js";
-import sessionsRouter from './routes/sessions.router.js'
-import usersViewRouter from './routes/users.views.router.js';
-
-//import Data
+// Utils
+import __dirname from "./utils.js";
+import initializePassport from "./config/passport.config.js";
 import connectMongoDB from "./data/db.js";
-import Product from "./models/product.model.js"; 
-import MongoStore from 'connect-mongo';
-import mongoose from 'mongoose';
 
-// Import passport y session
-import passport from 'passport';
-import cookieParser from 'cookie-parser';
-import session from 'express-session';
-import __dirname from './utils.js';
-import dotenv from 'dotenv'
-import initializePassport from './config/passport.config.js';
+// Routes
+import productsRouter from './routes/product.router.js';
+import cartRouter from './routes/cart.router.js';
+import viewsRouter from './routes/views.router.js';
+import sessionsRouter from './routes/sessions.router.js';
 
-// Inicializo Express
+// Models
+import Product from './dao/models/product.model.js';
+
+// ----------------- APP SETUP -----------------
+dotenv.config();
 const app = express();
-dotenv.config() // Esto es para las variables de entorno
+const PORT = process.env.PORT || 8080;
 
-//JSON settings:
+// ----------------- MIDDLEWARES -----------------
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// Configuración de Handlebars
-app.engine("handlebars", engine());
-app.set("view engine", "handlebars");
-app.set("views", "./src/views");
-app.set('views', __dirname + '/views')
-app.use(express.static(__dirname + '/public'));
-
-//Cookies
-//router.use(cookieParser());
 app.use(cookieParser("CoderS3cr3tC0d3"));
 
-// Configurar express-session
-app.use(
-    session({
-        secret: "miClaveSecreta",
-        resave: false,
-        saveUninitialized: false,
-        store: MongoStore.create({
-            mongoUrl: process.env.MONGO_URL,
-            ttl: 3600,
-        }),
-        cookie: { maxAge: 60000 },
-    })
-);
+app.use(session({
+    secret: "miClaveSecreta",
+    resave: false,
+    saveUninitialized: false,
+    store: MongoStore.create({
+        mongoUrl: process.env.MONGO_URL,
+        ttl: 3600
+    }),
+    cookie: { maxAge: 60000 }
+}));
 
-// Configuración de Passport
-initializePassport(); // <- Ejecución de la configuración
+initializePassport();
 app.use(passport.initialize());
-app.use(passport.session()); // <- Asegúrate de que esto esté después de express-session
+app.use(passport.session());
 
-// Endpoints
+// ----------------- HANDLEBARS -----------------
+app.engine("handlebars", engine({
+    helpers: {
+      eq: (a, b) => a === b
+    }
+  }));
+app.set("view engine", "handlebars");
+app.set("views", path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, "..", "public")));
+
+// ----------------- ROUTES -----------------
+app.use("/", viewsRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartRouter);
-app.use("/", viewsRouter);
-app.use('/api/sessions', sessionsRouter);
-app.use('/users', usersViewRouter);
-app.use("/api/sessions", sessionsRouter); // <- Es donde estan las APIs de register y Login
+app.use("/api/sessions", sessionsRouter);
 
-// Middleware para procesar datos codificados en URL (opcional, si usas formularios)
-app.use(express.urlencoded({ extended: true }));
-
+// ----------------- WEBSOCKETS -----------------
 const server = http.createServer(app);
 const io = new Server(server);
 
-
-// Me conecto con MongoDB
-connectMongoDB();
-
-// Puerto
-const PORT = 8080;
-
-// Habilitamos la carpeta public
-app.use(express.static("public"));
-
-
-
-// WebSockets
 io.on("connection", (socket) => {
-    console.log("Nuevo usuario conectado");
+    console.log("🔌 Nuevo usuario conectado");
 
-    // Enviar lista de productos al cliente al conectarse
     socket.on("getProducts", async () => {
         try {
             const products = await Product.find().lean();
@@ -103,31 +82,31 @@ io.on("connection", (socket) => {
         }
     });
 
-    // Crear un nuevo producto
     socket.on("newProduct", async (productData) => {
         try {
             const newProduct = new Product(productData);
             await newProduct.save();
             const products = await Product.find().lean();
-            io.emit("updateProducts", products); // Actualizar la lista para todos los clientes
+            io.emit("updateProducts", products);
         } catch (error) {
-            console.error("Error añadiendo producto:", error.message);
+            console.error("Error al añadir producto:", error.message);
         }
     });
 
-    // Eliminar un producto por ID
     socket.on("deleteProductById", async (id) => {
         try {
             await Product.findByIdAndDelete(id);
             const products = await Product.find().lean();
-            io.emit("updateProducts", products); // Actualizar la lista para todos los clientes
+            io.emit("updateProducts", products);
         } catch (error) {
             console.error("Error al eliminar producto:", error.message);
         }
     });
 });
 
-// Iniciar el servidor
+// ----------------- START -----------------
+connectMongoDB();
+
 server.listen(PORT, () => {
-    console.log(`Servidor iniciado en: http://localhost:${PORT}`);
+    console.log(`✅ Servidor iniciado en: http://localhost:${PORT}`);
 });

@@ -1,9 +1,17 @@
 import express from 'express';
-import CartManager from '../CartManager.js';
-import Cart from "../models/cart.model.js"; // Asegúrate de que la ruta sea correcta
+import Cart from '../dao/models/cart.model.js'; // Asegúrate de que la ruta sea correcta
+import { checkRole } from '../middlewares/authorization.js';
+import TicketRepository from '../dao/repositories/ticket.repository.js';
+import CartRepository from '../dao/repositories/cart.repository.js';
+import ProductRepository from '../dao/repositories/product.repository.js';
+import crypto from "crypto";
+import { sendPurchaseEmail } from "../services/email.services.js";
+
 
 const cartRouter = express.Router();
-const cartManager = new CartManager();
+const ticketRepo = new TicketRepository();
+const cartRepo = new CartRepository();
+const productRepo = new ProductRepository();
 
 // Crear un nuevo carrito
 cartRouter.post("/", async (req, res) => {
@@ -27,7 +35,7 @@ cartRouter.get('/latest', async (req, res) => {
 });
 
 // Agregar un producto al carrito
-cartRouter.post('/:cartId/products/:pid', async (req, res) => {
+cartRouter.post('/:cartId/products/:pid', checkRole("user"), async (req, res) => {
     try {
         const { cartId, pid } = req.params;
         const { quantity } = req.body;
@@ -123,4 +131,51 @@ cartRouter.get("/:cid", async (req, res) => {
         res.status(500).send({ message: error.message });
     }
 });
+
+
+
+
+cartRouter.post("/:cid/purchase", checkRole("user"), async (req, res) => {
+    const { cid } = req.params;
+    const user = req.user;
+  
+    const cart = await cartRepo.getCartById(cid);
+    if (!cart) return res.status(404).json({ error: "Carrito no encontrado" });
+  
+    const notProcessed = [];
+    let totalAmount = 0;
+  
+    for (const item of cart.products) {
+      const product = await productRepo.getProductById(item.product._id);
+  
+      if (product.stock >= item.quantity) {
+        product.stock -= item.quantity;
+        await productRepo.updateProduct(product._id, { stock: product.stock });
+  
+        totalAmount += product.price * item.quantity;
+      } else {
+        notProcessed.push(item.product._id);
+      }
+    }
+  
+    if (totalAmount > 0) {
+      const ticketData = {
+        code: crypto.randomUUID(),
+        amount: totalAmount,
+        purchaser: user.email
+      };
+      await ticketRepo.createTicket(ticketData);
+      // Enviar por correo
+await sendPurchaseEmail(user.email, ticket);
+    }
+  
+    // Actualizar carrito: dejar sólo productos no procesados
+    cart.products = cart.products.filter(item => notProcessed.includes(item.product._id.toString()));
+    await cartRepo.updateCart(cid, cart);
+  
+    res.json({
+      message: "Compra finalizada",
+      notProcessed
+    });
+  });
 export default cartRouter;
