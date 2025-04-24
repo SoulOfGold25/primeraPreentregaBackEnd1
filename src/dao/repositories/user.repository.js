@@ -1,4 +1,4 @@
-import UserDAO from '../dao/user.dao.js";
+import UserDAO from '../dao/user.dao.js';
 
 const userDao = new UserDAO();
 
@@ -25,5 +25,9 @@ export default class UserRepository {
 
   deleteUser(id) {
     return userDao.delete(id);
+  }
+
+  addProductToCart(cartId, productId, quantity) {
+    return cartDao.addProductToCart(cartId, productId, quantity);
   }
 }

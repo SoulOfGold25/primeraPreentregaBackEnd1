@@ -1,0 +1,18 @@
+<h1>🧾 Ticket de Compra</h1>
+
+<p><strong>Código:</strong> {{ticket.code}}</p>
+<p><strong>Comprador:</strong> {{ticket.purchaser}}</p>
+<p><strong>Total pagado:</strong> ${{ticket.amount}}</p>
+<p><strong>Fecha:</strong> {{ticket.purchase_datetime}}</p>
+
+{{#if noStock.length}}
+  <hr>
+  <h2>❌ Productos sin stock:</h2>
+  <ul>
+    {{#each noStock}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
+
+<a href="/">Volver al perfil</a>

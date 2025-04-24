@@ -1,16 +1,18 @@
 import express from 'express';
-import Cart from '../dao/models/cart.model.js'; // Asegúrate de que la ruta sea correcta
+import Cart from '../dao/models/cart.model.js';
 import { checkRole } from '../middlewares/authorization.js';
-import TicketRepository from '../dao/repositories/ticket.repository.js';
+import ticketRepository from "../dao/repositories/ticket.repository.js";
 import CartRepository from '../dao/repositories/cart.repository.js';
 import ProductRepository from '../dao/repositories/product.repository.js';
 import crypto from "crypto";
-import { sendPurchaseEmail } from "../services/email.services.js";
-
+import  sendPurchaseEmail  from "../services/email.services.js";
+import { passportCall } from "../utils.js";
+import { v4 as uuidv4 } from 'uuid';
+import CartModel from '../dao/models/cart.model.js';
 
 const cartRouter = express.Router();
-const ticketRepo = new TicketRepository();
-const cartRepo = new CartRepository();
+// const ticket = await ticketRepository.generate(ticketData);
+const cartRepository  = new CartRepository();
 const productRepo = new ProductRepository();
 
 // Crear un nuevo carrito
@@ -34,18 +36,25 @@ cartRouter.get('/latest', async (req, res) => {
     }
 });
 
-// Agregar un producto al carrito
-cartRouter.post('/:cartId/products/:pid', checkRole("user"), async (req, res) => {
-    try {
+
+cartRouter.post(
+    "/:cartId/products/:pid",
+    passportCall("jwt"),
+    checkRole("user"),
+    async (req, res) => {
+      try {
         const { cartId, pid } = req.params;
         const { quantity } = req.body;
-
-        const cart = await cartManager.addProductById(cartId, pid, quantity);
-        res.json({ success: true, cart });
-    } catch (error) {
+  
+        const updatedCart = await cartRepository.addProductToCart(cartId, pid, quantity);
+  
+        res.json({ success: true, cart: updatedCart });
+      } catch (error) {
+        console.error("Error al agregar producto al carrito:", error.message);
         res.status(500).json({ error: error.message });
+      }
     }
-});
+  );
 
 // Eliminar un producto del carrito
 cartRouter.delete("/:cid/products/:pid", async (req, res) => {
@@ -132,50 +141,70 @@ cartRouter.get("/:cid", async (req, res) => {
     }
 });
 
-
-
-
-cartRouter.post("/:cid/purchase", checkRole("user"), async (req, res) => {
+cartRouter.post('/:cid/purchase', passportCall("jwt"), async (req, res) => {
     const { cid } = req.params;
-    const user = req.user;
   
-    const cart = await cartRepo.getCartById(cid);
-    if (!cart) return res.status(404).json({ error: "Carrito no encontrado" });
+    try {
+      const cart = await CartModel.findById(cid).populate('products.product');
   
-    const notProcessed = [];
-    let totalAmount = 0;
+      if (!cart) return res.status(404).send({ error: 'Carrito no encontrado' });
   
-    for (const item of cart.products) {
-      const product = await productRepo.getProductById(item.product._id);
+      let total = 0;
+      const purchasedProducts = [];
+      const rejectedProducts = [];
   
-      if (product.stock >= item.quantity) {
-        product.stock -= item.quantity;
-        await productRepo.updateProduct(product._id, { stock: product.stock });
+      for (const item of cart.products) {
+        const product = item.product;
+        const quantity = item.quantity;
   
-        totalAmount += product.price * item.quantity;
-      } else {
-        notProcessed.push(item.product._id);
+        if (product.stock >= quantity) {
+          product.stock -= quantity;
+          await product.save();
+          total += product.price * quantity;
+          purchasedProducts.push(item);
+        } else {
+          rejectedProducts.push(item);
+        }
       }
-    }
   
-    if (totalAmount > 0) {
+      if (purchasedProducts.length === 0) {
+        return res.status(400).json({
+          message: "No se pudo procesar ningún producto por falta de stock",
+          noStock: rejectedProducts.map(p => p.product._id)
+        });
+      }
+  
       const ticketData = {
-        code: crypto.randomUUID(),
-        amount: totalAmount,
-        purchaser: user.email
+        code: uuidv4(),
+        amount: total,
+        purchaser: req.user.email
       };
-      await ticketRepo.createTicket(ticketData);
-      // Enviar por correo
-await sendPurchaseEmail(user.email, ticket);
+  
+      const ticket = await ticketRepository.generate(ticketData);
+  
+      await sendPurchaseEmail(req.user.email, ticket);
+  
+      cart.products = rejectedProducts;
+      await cart.save();
+  
+      res.json({
+        message: "✅ Compra procesada con éxito",
+        ticket,
+        productos_comprados: purchasedProducts.map(p => ({
+          id: p.product._id,
+          nombre: p.product.title,
+          cantidad: p.quantity
+        })),
+        productos_rechazados: rejectedProducts.map(p => ({
+          id: p.product._id,
+          nombre: p.product.title,
+          stock_disponible: p.product.stock
+        }))
+      });
+  
+    } catch (error) {
+      console.error("❌ Error en compra:", error);
+      res.status(500).send({ error: 'Error en el proceso de compra' });
     }
-  
-    // Actualizar carrito: dejar sólo productos no procesados
-    cart.products = cart.products.filter(item => notProcessed.includes(item.product._id.toString()));
-    await cartRepo.updateCart(cid, cart);
-  
-    res.json({
-      message: "Compra finalizada",
-      notProcessed
-    });
   });
 export default cartRouter;

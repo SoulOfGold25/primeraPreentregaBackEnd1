@@ -1,12 +1,23 @@
-import transporter from '../config/mailer.js';
+import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
 
-export async function sendPurchaseEmail(to, ticket) {
+dotenv.config();
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.GMAIL_USER,       //  correo
+    pass: process.env.GMAIL_PASS        // clave de aplicación
+  }
+});
+
+const sendPurchaseEmail = async (to, ticket) => {
   const mailOptions = {
-    from: `"Ecommerce App" <${process.env.GMAIL_USER}>`,
+    from: 'Tu ecommerce <' + process.env.GMAIL_USER + '>',
     to,
-    subject: `🎟️ Ticket de compra ${ticket.code}`,
+    subject: '🧾 Confirmación de compra - Ticket ' + ticket.code,
     html: `
-      <h2>Gracias por tu compra 🎉</h2>
+      <h1>¡Gracias por tu compra!</h1>
       <p><strong>Código:</strong> ${ticket.code}</p>
       <p><strong>Total:</strong> $${ticket.amount}</p>
       <p><strong>Fecha:</strong> ${new Date(ticket.purchase_datetime).toLocaleString()}</p>
@@ -15,8 +26,10 @@ export async function sendPurchaseEmail(to, ticket) {
 
   try {
     await transporter.sendMail(mailOptions);
-    console.log("Correo enviado a", to);
-  } catch (error) {
-    console.error("Error enviando correo:", error);
+    console.log(`✉️ Correo enviado a ${to}`);
+  } catch (err) {
+    console.error('❌ Error al enviar correo:', err.message);
   }
-}
+};
+
+export default sendPurchaseEmail;

@@ -35,5 +35,19 @@ router.get("/dashboard-admin",
         });
     });
 
+    router.get("/purchase/success", (req, res) => {
+        const ticket = req.session.ticket;
+        const noStock = req.session.noStock || [];
+      
+        if (!ticket) return res.redirect("/");
+      
+        res.render("purchase-success", { ticket, noStock });
+      
+        // Limpiar datos temporales
+        req.session.ticket = null;
+        req.session.noStock = null;
+      });
+      
+
 
 export default router
