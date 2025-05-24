@@ -1,0 +1,36 @@
+<h1>✅ Compra exitosa</h1>
+
+<h2>🎟️ Ticket</h2>
+<p><strong>Código:</strong> {{ticket.code}}</p>
+<p><strong>Total pagado:</strong> ${{ticket.amount}}</p>
+<p><strong>Comprador:</strong> {{ticket.purchaser}}</p>
+
+<hr>
+
+<h2>🛍️ Productos comprados</h2>
+{{#if purchasedProducts.length}}
+  <ul>
+    {{#each purchasedProducts}}
+      <li>
+        <strong>{{title}}</strong> - Cantidad: {{quantity}} - Precio: ${{price}}
+      </li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>No se compró ningún producto.</p>
+{{/if}}
+
+<hr>
+
+<h2>⚠️ Sin stock</h2>
+{{#if noStock.length}}
+  <ul>
+    {{#each noStock}}
+      <li>{{title}} - Stock disponible: {{stock}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>Todos los productos fueron procesados correctamente.</p>
+{{/if}}
+
+<a href="/products">🔙 Volver a productos</a>

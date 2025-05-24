@@ -1,18 +1,87 @@
-<h1>Detalles del Carrito</h1>
+<h1>🛒 Tu carrito</h1>
 
-{{#if cart.products.length}}
-    <ul>
-        {{#each cart.products}}
-            <li>
-                <strong>Producto:</strong> {{this.product.title}} <br> <!-- Nombre del producto -->
-                <strong>Cantidad:</strong> {{this.quantity}} <br> <!-- Cantidad del producto -->
-                <strong>Precio:</strong> ${{this.product.price}} <br> <!-- Precio del producto -->
-                <p>-----------------------------------------------------------------------</p>
-            </li>
-        {{/each}}
-    </ul>
+{{#if products.length}}
+  <ul>
+    {{#each products}}
+      <li data-id="{{this.product._id}}">
+        <div>
+          <strong>{{this.product.title}}</strong><br>
+          ${{this.product.price}} x 
+          <input type="number" min="1" value="{{this.quantity}}" onchange="updateQuantity('{{this.product._id}}', this.value)">
+          = $<span class="subtotal" data-id="{{this.product._id}}">{{multiply this.product.price this.quantity}}</span>
+        </div>
+        <button onclick="removeFromCart('{{this.product._id}}')">🗑️ Quitar</button>
+      </li>
+    {{/each}}
+  </ul>
+
+  <p id="total"><strong>Total:</strong> $<span id="cart-total">{{total}}</span></p>
+
+  <form action="/api/carts/{{cartId}}/purchase" method="POST">
+    <button type="submit">✅ Finalizar compra</button>
+  </form>
 {{else}}
-    <p>El carrito está vacío.</p>
+  <p>⚠️ Tu carrito está vacío.</p>
 {{/if}}
 
-<a href="/">Volver a la tienda</a>
+<br>
+<a href="/products">
+  <button>← Volver al listado de productos</button>
+</a>
+<p style="color:green;">🛒 ID del carrito: {{cartId}}</p>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+
+  // ✅ Ya tienes el cartId en la vista, úsalo directamente
+    const cartId = "{{cartId}}".trim();
+  console.log("🧾 Cart ID en script:", cartId);
+  console.log("🛒 Carrito activo:", "{{cartId}}")
+async function removeFromCart(productId) {
+  if (!cartId) await fetchCartIdFromToken();
+  if (!cartId) return alert("⚠️ No se puede eliminar: carrito no disponible.");
+
+  const confirmDelete = confirm("¿Estás seguro que quieres eliminar este producto del carrito?");
+  if (!confirmDelete) return;
+
+  socket.emit("removeProductFromCart", { cartId, productId });
+}
+
+  socket.on("cartUpdated", () => {
+    location.reload();
+  });
+
+socket.on("cartUpdated", ({ newTotal, removedId }) => {
+  // Eliminar el <li> del producto eliminado
+  const item = document.querySelector(`li[data-id="${removedId}"]`);
+  if (item) item.remove();
+
+  // Actualizar el total en pantalla
+  document.getElementById("cart-total").textContent = newTotal;
+
+  // Si ya no hay productos, mostrar el mensaje de carrito vacío
+  const remainingItems = document.querySelectorAll("ul li");
+  if (remainingItems.length === 0) {
+    document.querySelector("ul").remove();
+    document.getElementById("cart-total").parentElement.remove();
+
+    const emptyMessage = document.createElement("p");
+    emptyMessage.textContent = "⚠️ Tu carrito está vacío.";
+    document.body.insertBefore(emptyMessage, document.querySelector("form"));
+  }
+});
+
+function updateQuantity(productId, newQuantity) {
+  if (!cartId) return alert("Carrito no disponible");
+
+  socket.emit("updateCartQuantity", { cartId, productId, quantity: parseInt(newQuantity) });
+}
+
+socket.on("quantityUpdated", ({ newSubtotal, newTotal, productId }) => {
+  document.querySelector(`span.subtotal[data-id="${productId}"]`).textContent = newSubtotal;
+  document.getElementById("cart-total").textContent = newTotal;
+});
+
+</script>
+

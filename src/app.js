@@ -24,7 +24,7 @@ import sessionsRouter from './routes/sessions.router.js';
 
 // Models
 import Product from './dao/models/product.model.js';
-
+import CartModel from './dao/models/cart.model.js';
 // ----------------- APP SETUP -----------------
 dotenv.config();
 const app = express();
@@ -53,9 +53,10 @@ app.use(passport.session());
 // ----------------- HANDLEBARS -----------------
 app.engine("handlebars", engine({
     helpers: {
-      eq: (a, b) => a === b
+        multiply: (a, b) => a * b,
+        eq: (a, b) => a === b
     }
-  }));
+}));
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "..", "public")));
@@ -102,6 +103,49 @@ io.on("connection", (socket) => {
             console.error("Error al eliminar producto:", error.message);
         }
     });
+
+    socket.on("removeProductFromCart", async ({ cartId, productId }) => {
+        try {
+            console.log("🔧 Petición de eliminar producto del carrito", cartId, productId);
+
+          const cart = await CartModel.findById(cartId);
+          if (!cart) return socket.emit("cartUpdateError", "Carrito no encontrado");
+      
+          cart.products = cart.products.filter(p => p.product.toString() !== productId);
+          await cart.save();
+      
+          const updatedCart = await CartModel.findById(cartId).populate("products.product").lean();
+const newTotal = updatedCart.products.reduce((acc, p) => acc + p.quantity * p.product.price, 0);
+socket.emit("cartUpdated", { newTotal: newTotal.toFixed(2), removedId: productId });
+        } catch (err) {
+          console.error("Error al quitar producto del carrito:", err.message);
+          socket.emit("cartUpdateError", "Error interno al quitar producto");
+        }
+      });
+
+      socket.on("updateCartQuantity", async ({ cartId, productId, quantity }) => {
+        try {
+          const cart = await CartModel.findById(cartId).populate("products.product");
+          if (!cart) return socket.emit("cartUpdateError", "Carrito no encontrado");
+      
+          const productInCart = cart.products.find(p => p.product._id.toString() === productId);
+          if (!productInCart) return socket.emit("cartUpdateError", "Producto no encontrado en el carrito");
+      
+          productInCart.quantity = quantity;
+          await cart.save();
+      
+          const updatedCart = await CartModel.findById(cartId).populate("products.product").lean();
+          const newSubtotal = (productInCart.product.price * quantity).toFixed(2);
+          const newTotal = updatedCart.products.reduce((acc, p) => acc + p.quantity * p.product.price, 0).toFixed(2);
+      
+          socket.emit("quantityUpdated", { newSubtotal, newTotal, productId });
+        } catch (err) {
+          console.error("Error al actualizar cantidad:", err.message);
+          socket.emit("cartUpdateError", "Error interno al actualizar cantidad");
+        }
+      });
+      
+
 });
 
 // ----------------- START -----------------

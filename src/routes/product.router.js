@@ -11,14 +11,14 @@ const productManager = new ProductManager();
 
 // GET "/": Obtener todos los productos con filtros, paginación y ordenamiento
 productsRouter.get("/", async (req, res) => {
-    try {
-        const { limit, page, sort, ...query } = req.query;
-        const options = { limit, page, sort, ...query };
-        const products = await productManager.getProducts(query, options);
-        res.status(200).send(products);
-    } catch (error) {
-        res.status(500).send({ status: "error", message: error.message });
-    }
+	try {
+		const { limit, page, sort, query } = req.query;
+		const options = { limit, page, sort };
+		const products = await productManager.getProducts({ query }, options);
+		res.status(200).json(products);
+	} catch (error) {
+		res.status(500).json({ status: "error", message: error.message });
+	}
 });
 
 // GET "/:pid": Obtener un producto por ID
@@ -71,5 +71,7 @@ productsRouter.post("/", checkRole("admin"), async (req, res) => {
   // Solo ADMIN puede actualizar/eliminar
   productsRouter.put("/:pid", checkRole("admin"), /* ... */);
   productsRouter.delete("/:pid", checkRole("admin"), /* ... */);
+
+
 
 export default productsRouter;

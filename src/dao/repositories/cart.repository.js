@@ -23,7 +23,7 @@ export default class CartRepository {
     return cartDao.delete(id);
   }
   
-  addProductToCart(cartId, productId, quantity) {
+  addProductToCart(cartId, productId, quantity = 1) {
     return cartDao.addProductToCart(cartId, productId, quantity);
   }
 }

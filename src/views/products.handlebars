@@ -1,0 +1,94 @@
+<h1>🛍️ Productos</h1>
+
+<p>Ordenar por: 
+	<a href="?sort=asc&query={{query}}">Precio ↑</a> | 
+	<a href="?sort=desc&query={{query}}">Precio ↓</a>
+</p>
+
+<p>Filtrar:
+	{{#if availableOnly}}
+		<a href="?sort={{sort}}">Ver todos</a>
+	{{else}}
+		<a href="?query=available&sort={{sort}}">Solo disponibles</a>
+	{{/if}}
+</p>
+
+<ul>
+	{{#each products}}
+		<li>
+			<strong>{{this.title}}</strong> - ${{this.price}}<br>
+			<a href="/products/{{this._id}}">Ver detalles</a> |
+			<button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
+		</li>
+	{{/each}}
+</ul>
+
+<!-- Ver carrito -->
+<div style="margin-bottom: 1rem;">
+	<button onclick="goToCart()">🛒 Ver mi carrito</button>
+	<p id="cart-status" style="color: darkorange; font-weight: bold;"></p>
+</div>
+
+<p>Página {{page}} de {{totalPages}}</p>
+
+{{#if hasPrevPage}}
+	<a href="{{prevLink}}">Anterior</a>
+{{/if}}
+
+{{#if hasNextPage}}
+	<a href="{{nextLink}}">Siguiente</a>
+{{/if}}
+
+<script>
+	// Agrega un producto al carrito del usuario autenticado
+	async function addToCart(productId) {
+	try {
+		const sessionRes = await fetch('/api/sessions/current');
+		const sessionData = await sessionRes.json();
+
+		if (!sessionData.user?.cartId) {
+			alert("⚠️ No se encontró un carrito asociado al usuario.");
+			return;
+		}
+
+		const cartId = sessionData.user.cartId;
+
+		const res = await fetch(`/api/carts/${cartId}/products/${productId}`, {
+			method: "POST",
+			headers: { "Content-Type": "application/json" },
+			body: JSON.stringify({ quantity: 1 })
+		});
+
+		const data = await res.json();
+		if (data.success) {
+			alert("✅ Producto agregado al carrito");
+		} else {
+			alert("❌ No se pudo agregar el producto");
+			console.error(data);
+		}
+
+	} catch (error) {
+		console.error("❌ Error en addToCart:", error);
+		alert("Error al intentar agregar al carrito.");
+	}
+}
+
+
+	// Redirige al carrito del usuario autenticado
+async function goToCart() {
+	try {
+		const res = await fetch('/api/sessions/current');
+		const { user } = await res.json();
+
+		if (user?.cartId) {
+			window.location.href = `/carts/${user.cartId}`;
+		} else {
+			alert("No se encontró carrito asociado al usuario");
+		}
+	} catch (err) {
+		console.error("Error al obtener usuario actual:", err);
+		alert("Debes iniciar sesión para ver tu carrito.");
+	}
+}
+
+</script>

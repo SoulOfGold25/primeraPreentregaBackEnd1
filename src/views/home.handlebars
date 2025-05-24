@@ -1,109 +1,109 @@
 <div>
-    <h1>Home</h1>
-    <h2>Lista de productos</h2>
+	<h1>Home</h1>
+	<h2>Lista de productos</h2>
 
-    <p>Ordenar por: 
-        <a href="/?sortBy=price&sortOrder=asc&available={{availableOnly}}">Precio ↑</a> | 
-        <a href="/?sortBy=price&sortOrder=desc&available={{availableOnly}}">Precio ↓</a> |
-        <a href="/?sortBy=title&sortOrder=asc&available={{availableOnly}}">Nombre ↑</a> |
-        <a href="/?sortBy=title&sortOrder=desc&available={{availableOnly}}">Nombre ↓</a>
-    </p>
+	<p>Ordenar por: 
+		<a href="/?sortBy=price&sortOrder=asc&available={{availableOnly}}">Precio ↑</a> | 
+		<a href="/?sortBy=price&sortOrder=desc&available={{availableOnly}}">Precio ↓</a> |
+		<a href="/?sortBy=title&sortOrder=asc&available={{availableOnly}}">Nombre ↑</a> |
+		<a href="/?sortBy=title&sortOrder=desc&available={{availableOnly}}">Nombre ↓</a>
+	</p>
 
-    <p>Filtrar: 
-        {{#if availableOnly}}
-            <a href="/?sortBy={{sortBy}}&sortOrder={{sortOrder}}">Ver todos</a>
-        {{else}}
-            <a href="/?available=true&sortBy={{sortBy}}&sortOrder={{sortOrder}}">Solo disponibles</a>
-        {{/if}}
-    </p>
+	<p>Filtrar: 
+		{{#if availableOnly}}
+			<a href="/?sortBy={{sortBy}}&sortOrder={{sortOrder}}">Ver todos</a>
+		{{else}}
+			<a href="/?available=true&sortBy={{sortBy}}&sortOrder={{sortOrder}}">Solo disponibles</a>
+		{{/if}}
+	</p>
 
-    <ul>
-        {{#each products}}
-            <li>
-                <strong>Nombre:</strong> {{this.title}} <br>
-                <strong>Precio:</strong> ${{this.price}} <br>
-                
-                <!-- Enlace a la página de detalles del producto -->
-                <a href="/products/{{this._id}}">Ver detalles</a>
+	<ul>
+		{{#each products}}
+			<li>
+				<strong>Nombre:</strong> {{this.title}} <br>
+				<strong>Precio:</strong> ${{this.price}} <br>
+				
+				<!-- Enlace a la página de detalles del producto -->
+				<a href="/products/{{this._id}}">Ver detalles</a>
 
-                <!-- Botón para agregar al carrito -->
-                <button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
-            </li>
-        {{/each}}
-    </ul>
+				<!-- Botón para agregar al carrito -->
+				<button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
+			</li>
+		{{/each}}
+	</ul>
 
 <script>
-    let cartId = null;
+	let cartId = null;
 
-    // Función para obtener el cartId más reciente desde el servidor o crear uno nuevo si no existe
-    async function fetchCartId() {
-        try {
-            const response = await fetch('/api/carts/latest');
-            
-            if (!response.ok) {
-                // Si no se encuentra un carrito, se crea uno nuevo
-                const createCartResponse = await fetch('/api/carts', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' }
-                });
-                const newCart = await createCartResponse.json();
-                cartId = newCart._id;  // Usar el nuevo cartId creado
-            } else {
-                // Si el carrito ya existe, obtener su ID
-                const data = await response.json();
-                cartId = data.cartId;
-            }
+	// Función para obtener el cartId más reciente desde el servidor o crear uno nuevo si no existe
+	async function fetchCartId() {
+		try {
+			const response = await fetch('/api/carts/latest');
+			
+			if (!response.ok) {
+				// Si no se encuentra un carrito, se crea uno nuevo
+				const createCartResponse = await fetch('/api/carts', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' }
+				});
+				const newCart = await createCartResponse.json();
+				cartId = newCart._id;  // Usar el nuevo cartId creado
+			} else {
+				// Si el carrito ya existe, obtener su ID
+				const data = await response.json();
+				cartId = data.cartId;
+			}
 
-            console.log("Cart ID obtenido:", cartId);
+			console.log("Cart ID obtenido:", cartId);
 
-            // Mostrar el enlace del carrito solo si cartId es válido
-            if (cartId) {
-                document.getElementById("cart-link").style.display = "inline-block";
-                document.getElementById("cart-link").href = `/carts/${cartId}`;
-            } else {
-                console.log("No hay carrito activo.");
-            }
+			// Mostrar el enlace del carrito solo si cartId es válido
+			if (cartId) {
+				document.getElementById("cart-link").style.display = "inline-block";
+				document.getElementById("cart-link").href = `/carts/${cartId}`;
+			} else {
+				console.log("No hay carrito activo.");
+			}
 
-        } catch (error) {
-            console.error("Error al obtener el cartId:", error);
-        }
-    }
+		} catch (error) {
+			console.error("Error al obtener el cartId:", error);
+		}
+	}
 
-    // Función para agregar un producto al carrito
-    async function addToCart(productId) {
-        if (!cartId) await fetchCartId();  // Asegura que el cartId esté disponible
+	// Función para agregar un producto al carrito
+	async function addToCart(productId) {
+		if (!cartId) await fetchCartId();  // Asegura que el cartId esté disponible
 
-        const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ quantity: 1 })
-        });
+		const response = await fetch(`/api/carts/${cartId}/products/${productId}`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ quantity: 1 })
+		});
 
-        const data = await response.json();
-        if (data.success) {
-            alert("Producto agregado al carrito");
-        } else {
-            alert("Error al agregar el producto");
-        }
-    }
+		const data = await response.json();
+		if (data.success) {
+			alert("Producto agregado al carrito");
+		} else {
+			alert("Error al agregar el producto");
+		}
+	}
 
-    // Llamamos a la función para obtener el cartId al cargar la página
-    fetchCartId();
+	// Llamamos a la función para obtener el cartId al cargar la página
+	fetchCartId();
 </script>
 
 <!-- Enlace para ver el carrito, inicialmente oculto -->
 <a id="cart-link" href="#" style="display:none;">🛒 Ver carrito</a>
 
 
-    <p>Página {{page}} de {{totalPages}}</p>
+	<p>Página {{page}} de {{totalPages}}</p>
 
-    {{#if hasPrevPage}}
-        <a href="/?page={{prevPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Anterior</a>
-    {{/if}}
+	{{#if hasPrevPage}}
+		<a href="/?page={{prevPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Anterior</a>
+	{{/if}}
 
-    {{#if hasNextPage}}
-        <a href="/?page={{nextPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Siguiente</a>
-    {{/if}}
+	{{#if hasNextPage}}
+		<a href="/?page={{nextPage}}&sortBy={{sortBy}}&sortOrder={{sortOrder}}&available={{availableOnly}}">Siguiente</a>
+	{{/if}}
 </div>
 
 <script src="/socket.io/socket.io.js"></script>

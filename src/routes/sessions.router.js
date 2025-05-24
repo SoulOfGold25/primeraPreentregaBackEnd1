@@ -24,7 +24,7 @@ router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    const user = await userModel.findOne({ email });
+    const user = await userModel.findOne({ email }).populate("cart");
     if (!user) return res.status(401).json({ message: 'Usuario no encontrado' });
 
     if (!isValidPassword(user, password)) {
@@ -37,7 +37,8 @@ router.post("/login", async (req, res) => {
       email: user.email,
       age: user.age,
       role: user.role,
-      isAdmin: user.role === "admin"
+      isAdmin: user.role === "admin",
+      cart: user.cart
     };
 
     const access_token = generateJWToken(tokenUser);
