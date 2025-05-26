@@ -11,6 +11,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import path from "path";
 
+
 // Utils
 import __dirname from "./utils.js";
 import initializePassport from "./config/passport.config.js";
@@ -21,6 +22,9 @@ import productsRouter from './routes/product.router.js';
 import cartRouter from './routes/cart.router.js';
 import viewsRouter from './routes/views.router.js';
 import sessionsRouter from './routes/sessions.router.js';
+import mocksRouter from "./routes/mock.router.js";
+import usersRouter from './routes/users.router.js';
+import petsRouter from './routes/pets.router.js';
 
 // Models
 import Product from './dao/models/product.model.js';
@@ -66,6 +70,9 @@ app.use("/", viewsRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartRouter);
 app.use("/api/sessions", sessionsRouter);
+app.use('/api/mocks', mocksRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/pets', petsRouter);
 
 // ----------------- WEBSOCKETS -----------------
 const server = http.createServer(app);
